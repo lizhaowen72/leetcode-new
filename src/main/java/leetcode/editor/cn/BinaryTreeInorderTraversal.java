@@ -39,6 +39,7 @@ public class BinaryTreeInorderTraversal {
      */
     class Solution {
         public List<Integer> inorderTraversal(TreeNode root) {
+            System.out.println(1);
             List<Integer> res = new ArrayList<Integer>();
             Stack<TreeNode> stack = new Stack<TreeNode>();
             TreeNode cur = root;
