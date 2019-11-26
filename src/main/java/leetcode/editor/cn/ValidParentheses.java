@@ -1,5 +1,8 @@
 package leetcode.editor.cn;
-//给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。 
+
+import java.util.Stack;
+
+//给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
 //
 // 有效字符串需满足： 
 //
@@ -39,26 +42,30 @@ package leetcode.editor.cn;
 // 输入: "{[]}"
 //输出: true 
 // Related Topics 栈 字符串
-public class ValidParentheses{
+public class ValidParentheses {
     public static void main(String[] args) {
-         Solution solution = new ValidParentheses().new Solution();
+        Solution solution = new ValidParentheses().new Solution();
+        solution.isValid("(]");
     }
-    
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public boolean isValid(String s) {
-        return false;
-    }
-}
-//leetcode submit region end(Prohibit modification and deletion)
 
-    static class TreeNode{
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x){
-           this.val = x;
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public boolean isValid(String s) {
+            Stack<Character> stack = new Stack<>();
+            for (char c : s.toCharArray()) {
+                if (c == '(') {
+                    stack.push(')');
+                } else if (c == '{') {
+                    stack.push('}');
+                } else if (c == '[') {
+                    stack.push(']');
+                } else if (stack.isEmpty() || stack.pop() != c) {
+                    return false;
+                }
+            }
+            return stack.isEmpty();
         }
     }
+//leetcode submit region end(Prohibit modification and deletion)
 }
