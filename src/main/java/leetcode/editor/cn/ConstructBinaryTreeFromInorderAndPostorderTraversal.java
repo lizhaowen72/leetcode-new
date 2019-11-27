@@ -36,7 +36,7 @@ public class ConstructBinaryTreeFromInorderAndPostorderTraversal{
  */
 class Solution {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        
+        return null;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
