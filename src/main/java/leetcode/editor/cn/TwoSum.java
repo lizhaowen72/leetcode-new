@@ -10,20 +10,50 @@
 //所以返回 [0, 1]
 // 
 // Related Topics 数组 哈希表
-  
-  package leetcode.editor.cn;
-  public class TwoSum{
-      public static void main(String[] args) {
-           Solution solution = new TwoSum().new Solution();
-      }
-      
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        return  null;
+package leetcode.editor.cn;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TwoSum {
+    public static void main(String[] args) {
+        Solution solution = new TwoSum().new Solution();
+        int[] nums = {2, 7, 9, 11};
+        solution.twoSum(nums, 9);
     }
-}
+
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+
+        public int[] twoSum(int[] nums, int target) {
+            Map<Integer, Integer> map = new HashMap<>();
+            int[] res = new int[2];
+            for (int i = 0; i < nums.length; i++) {
+                int key = target - nums[i];
+                if (map.containsKey(key)) {
+                    return new int[]{i, map.get(key)};
+                }
+                map.put(nums[i], i);
+            }
+            return null;
+        }
+
+        public int[] twoSum2(int[] nums, int target) {
+            int[] res = new int[2];
+            for (int i = 0; i < nums.length; i++) {
+                for (int j = i + 1; j < nums.length; j++) {
+                    if (nums[i] + nums[j] == target) {
+                        res[0] = i;
+                        res[1] = j;
+                        return res;
+                    }
+                }
+            }
+            return res;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
