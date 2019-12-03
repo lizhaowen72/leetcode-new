@@ -19,49 +19,96 @@ package leetcode.editor.cn;
 //
 // 说明: 不要使用类的成员 / 全局 / 静态变量来存储状态，你的序列化和反序列化算法应该是无状态的。 
 // Related Topics 树 设计
-  
-  
-  public class SerializeAndDeserializeBinaryTree{
-      public static void main(String[] args) {
-          Codec solution = new SerializeAndDeserializeBinaryTree().new Codec();
-      }
-      
+
+
+import java.util.Arrays;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.List;
+
+public class SerializeAndDeserializeBinaryTree {
+    public static void main(String[] args) {
+        Codec solution = new SerializeAndDeserializeBinaryTree().new Codec();
+        TreeNode root = new TreeNode(1);
+        TreeNode nodeLeft = new TreeNode(2);
+        TreeNode nodeRight = new TreeNode(3);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node5 = new TreeNode(5);
+        root.left = nodeLeft;
+        root.right = nodeRight;
+        nodeRight.left=node4;
+        nodeRight.right=node5;
+        String serialize = solution.serialize(root);
+        System.out.println(serialize);
+        TreeNode deserialize = solution.deserialize(serialize);
+        System.out.println(deserialize);
+    }
+
 
 //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-public class Codec {
-    private static final String spliter =",";
-    private static final String MN ="X";
-    // Encodes a tree to a single string.
-    public String serialize(TreeNode root) {
-        
-    }
 
-    // Decodes your encoded data to tree.
-    public TreeNode deserialize(String data) {
-        
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode(int x) { val = x; }
+     * }
+     */
+    public class Codec {
+        private static final String spliter = ",";
+        private static final String NN = "X";
+
+        // Encodes a tree to a single string.
+        public String serialize(TreeNode root) {
+            StringBuilder sb = new StringBuilder();
+            buildString(root, sb);
+            return sb.toString();
+        }
+
+        private void buildString(TreeNode node, StringBuilder sb) {
+            if (node == null) {
+                sb.append(NN).append(spliter);
+            } else {
+                sb.append(node.val).append(spliter);
+                buildString(node.left, sb);
+                buildString(node.right, sb);
+            }
+        }
+
+        // Decodes your encoded data to tree.
+        public TreeNode deserialize(String data) {
+            Deque<String> nodes = new LinkedList<>();
+            nodes.addAll(Arrays.asList(data.split(spliter)));
+            return buildTree(nodes);
+        }
+
+        private TreeNode buildTree(Deque<String> nodes) {
+            String val = nodes.remove();
+            if (val.equals(NN)) {
+                return null;
+            } else {
+                TreeNode treeNode = new TreeNode(Integer.valueOf(val));
+                treeNode.left = buildTree(nodes);
+                treeNode.right = buildTree(nodes);
+                return treeNode;
+            }
+        }
     }
-}
 
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.deserialize(codec.serialize(root));
 //leetcode submit region end(Prohibit modification and deletion)
 
-      static class TreeNode{
-          int val;
-          TreeNode left;
-          TreeNode right;
-          public TreeNode(int x){
-              this.val = x;
-          }
-      }
-  }
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        public TreeNode(int x) {
+            this.val = x;
+        }
+    }
+}
