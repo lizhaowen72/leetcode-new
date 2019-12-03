@@ -1,5 +1,6 @@
 package leetcode.editor.cn;
-//给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先。 
+
+//给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先。
 //
 // 百度百科中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。” 
 //
@@ -31,35 +32,67 @@ package leetcode.editor.cn;
 // p、q 为不同节点且均存在于给定的二叉搜索树中。 
 // 
 // Related Topics 树
-public class LowestCommonAncestorOfABinarySearchTree{
+public class LowestCommonAncestorOfABinarySearchTree {
     public static void main(String[] args) {
-         Solution solution = new LowestCommonAncestorOfABinarySearchTree().new Solution();
+        Solution solution = new LowestCommonAncestorOfABinarySearchTree().new Solution();
+        TreeNode node6 = new TreeNode(6);
+        TreeNode node2 = new TreeNode(2);
+        TreeNode node8 = new TreeNode(8);
+        TreeNode node4 = new TreeNode(4);
+        node6.left = node2;
+        node6.right = node8;
+        node2.right = node4;
+        solution.lowestCommonAncestor(node6, node2, node4);
     }
-    
+
 
 //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-class Solution {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        return null;
+
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode(int x) { val = x; }
+     * }
+     */
+    class Solution {
+        /**
+         * 递归解法
+         * @param root
+         * @param p
+         * @param q
+         * @return
+         */
+        public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+            return (root.val - (long)p.val) * (root.val - (long)q.val) < 1 ?
+                    root : lowestCommonAncestor(p.val < root.val ? root.left : root.right, p, q);
+        }
+
+        /**
+         * 迭代解法
+         * @param root
+         * @param p
+         * @param q
+         * @return
+         */
+        public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+            while ((root.val - (long)p.val) * (root.val - (long)q.val) > 0) {
+                root = p.val < root.val ? root.left : root.right;
+            }
+            return root;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
-    static class TreeNode{
+    static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x){
-           this.val = x;
+
+        TreeNode(int x) {
+            this.val = x;
         }
     }
 }
