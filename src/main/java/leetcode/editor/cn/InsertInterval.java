@@ -24,51 +24,34 @@ import java.util.List;
 public class InsertInterval {
     public static void main(String[] args) {
         Solution solution = new InsertInterval().new Solution();
+        int[][] intervals = {{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 17}};
+        int[] newInterval = {4, 8};
+        int[][] insert = solution.insert(intervals, newInterval);
+        System.out.println(insert);
     }
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[][] insert(int[][] intervals, int[] newInterval) {
-            List<Interval> res = new ArrayList<>();
-            for (int[] interval : intervals) {
-                res.add(new Interval(interval[0],interval[1]));
-            }
-            List<Interval> insert = insert(res, new Interval(newInterval[0], newInterval[1]));
-            int[][] result = new int[insert.size()][insert.size()];
-            for (Interval interval : insert) {
-
-            }
-        }
-
-        public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
-            List<Interval> result = new LinkedList<>();
             int i = 0;
-            // add all the intervals ending before newInterval starts
-            while (i < intervals.size() && intervals.get(i).end < newInterval.start)
-                result.add(intervals.get(i++));
-            // merge all overlapping intervals to one considering newInterval
-            while (i < intervals.size() && intervals.get(i).start <= newInterval.end) {
-                newInterval = new Interval( // we could mutate newInterval here also
-                        Math.min(newInterval.start, intervals.get(i).start),
-                        Math.max(newInterval.end, intervals.get(i).end));
+            int len = intervals.length;
+            List<int[]> res = new ArrayList<>();
+            while (i < len && intervals[i][1] < newInterval[0]) {
+                res.add(intervals[i++]);
+            }
+            while (i < len && intervals[i][0] <= newInterval[1]) {
+                newInterval = new int[]{Math.min(intervals[i][0], newInterval[0]), Math.max(intervals[i][1], newInterval[1])};
                 i++;
             }
-            result.add(newInterval); // add the union of intervals we got
-            // add all the rest
-            while (i < intervals.size()) result.add(intervals.get(i++));
-            return result;
+            res.add(newInterval);
+            while (i < len) {
+                res.add(intervals[i++]);
+            }
+            return res.toArray(new int[res.size()][2]);
         }
+
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
-
-    class Interval {
-        int start;
-        int end;
-
-        public Interval(int start, int end,) {
-            this.end = end;
-            this.start = start;
-        }
-    }
 }
