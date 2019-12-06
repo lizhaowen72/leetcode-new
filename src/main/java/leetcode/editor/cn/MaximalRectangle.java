@@ -19,14 +19,13 @@ public class MaximalRectangle {
     public static void main(String[] args) {
         Solution solution = new MaximalRectangle().new Solution();
         char[][] matrix = {
-                {'1', '0', '1', '0', '0'},
-                {'1', '0', '1', '1', '1'},
-                {'1', '1', '1', '1', '1'},
-                {'1', '0', '0', '1', '0'}
+                {'1', '0', '1', '1', '0'},
+                {'1', '0', '1', '1', '1'}
+//                {'1', '1', '1', '1', '1'},
+//                {'1', '0', '0', '1', '0'}
         };
         solution.maximalRectangle(matrix);
     }
-
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
