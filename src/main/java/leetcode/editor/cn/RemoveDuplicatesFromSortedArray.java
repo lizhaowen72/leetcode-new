@@ -1,5 +1,6 @@
 package leetcode.editor.cn;
-//给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。 
+
+//给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
 //
 // 不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。 
 //
@@ -38,18 +39,27 @@ package leetcode.editor.cn;
 //}
 // 
 // Related Topics 数组 双指针
-public class RemoveDuplicatesFromSortedArray{
+public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
-         Solution solution = new RemoveDuplicatesFromSortedArray().new Solution();
+        Solution solution = new RemoveDuplicatesFromSortedArray().new Solution();
+        int[] nums = {1,1,2};
+        solution.removeDuplicates(nums);
     }
-    
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int removeDuplicates(int[] nums) {
-        return 0;
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int removeDuplicates(int[] nums) {
+            int slow = 0;
+            for (int i = 0; i < nums.length; i++) {
+                if (nums[slow] != nums[i]) {
+                    slow++;
+                    nums[slow] = nums[i];
+                }
+            }
+            return slow + 1;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
