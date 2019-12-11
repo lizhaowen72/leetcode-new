@@ -36,6 +36,9 @@ package leetcode.editor.cn;
 public class ExcelSheetColumnTitle {
     public static void main(String[] args) {
         Solution solution = new ExcelSheetColumnTitle().new Solution();
+        String s = solution.convertToTitle(701);
+        System.out.println(s);
+        System.out.println((char)('A'+25));
     }
 
 
