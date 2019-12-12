@@ -1,5 +1,6 @@
 package leetcode.editor.cn;
-//计算给定二叉树的所有左叶子之和。 
+
+//计算给定二叉树的所有左叶子之和。
 //
 // 示例： 
 //
@@ -14,27 +15,37 @@ package leetcode.editor.cn;
 //
 // 
 // Related Topics 树
-public class SumOfLeftLeaves{
+public class SumOfLeftLeaves {
     public static void main(String[] args) {
-         Solution solution = new SumOfLeftLeaves().new Solution();
+        Solution solution = new SumOfLeftLeaves().new Solution();
     }
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-class Solution {
-    public int sumOfLeftLeaves(TreeNode root) {
-        
-    }
-}
-//leetcode submit region end(Prohibit modification and deletion)
 
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode(int x) { val = x; }
+     * }
+     */
+    class Solution {
+        public int sumOfLeftLeaves(TreeNode root) {
+            return 0;
+        }
+    }
+
+    //leetcode submit region end(Prohibit modification and deletion)
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        public TreeNode(int val) {
+            this.val = val;
+        }
+    }
 }
