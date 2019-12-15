@@ -17,6 +17,19 @@ package leetcode.editor.cn;
 public class AddTwoNumbers {
     public static void main(String[] args) {
         Solution solution = new AddTwoNumbers().new Solution();
+        ListNode node2 = new ListNode(2);
+        ListNode node4 = new ListNode(4);
+        ListNode node3 = new ListNode(5);
+        ListNode node5 = new ListNode(5);
+        ListNode node6 = new ListNode(6);
+        ListNode node44 = new ListNode(4);
+        node2.next = node4;
+        node4.next = node3;
+
+        node5.next = node6;
+        node6.next = node44;
+
+        solution.addTwoNumbers(node2, node5);
     }
 
 
@@ -32,17 +45,29 @@ public class AddTwoNumbers {
      */
     class Solution {
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-            return null;
+            ListNode sentinel = new ListNode(0);
+            ListNode d = sentinel;
+            int sum = 0;
+            while (l1 != null || l2 != null) {
+                sum /= 10;
+                if (l1 != null) {
+                    sum += l1.val;
+                    l1 = l1.next;
+                }
+                if (l2 != null) {
+                    sum += l2.val;
+                    l2 = l2.next;
+                }
+                d.next = new ListNode(sum % 10);
+                d = d.next;
+            }
+            if (sum / 10 == 1) {
+                d.next = new ListNode(1);
+            }
+            return sentinel.next;
         }
 
     }
 
     //leetcode submit region end(Prohibit modification and deletion)
-    class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }
