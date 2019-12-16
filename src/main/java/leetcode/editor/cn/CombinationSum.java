@@ -1,5 +1,6 @@
 package leetcode.editor.cn;
 
+import java.util.ArrayList;
 import java.util.List;
 
 //给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
@@ -36,13 +37,31 @@ import java.util.List;
 public class CombinationSum {
     public static void main(String[] args) {
         Solution solution = new CombinationSum().new Solution();
+        int[] candidates = {2, 3, 6, 7};
+        solution.combinationSum(candidates, 7);
     }
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public List<List<Integer>> combinationSum(int[] candidates, int target) {
-            return null;
+            List<List<Integer>> res = new ArrayList<>();
+            combinationSum(candidates, res, new ArrayList<Integer>(), target, 0);
+            return res;
+        }
+
+        private void combinationSum(int[] candidates, List<List<Integer>> res, ArrayList<Integer> tempList, int sum, int start) {
+            if (sum < 0) {
+                return;
+            } else if (sum == 0) {
+                res.add(new ArrayList<>(tempList));
+            } else {
+                for (int i = start; i < candidates.length; i++) {
+                    tempList.add(candidates[i]);
+                    combinationSum(candidates, res, tempList, sum - candidates[i], i);
+                    tempList.remove(tempList.size() - 1);
+                }
+            }
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

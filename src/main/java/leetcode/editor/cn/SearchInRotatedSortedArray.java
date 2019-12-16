@@ -24,13 +24,37 @@ package leetcode.editor.cn;
 public class SearchInRotatedSortedArray {
     public static void main(String[] args) {
         Solution solution = new SearchInRotatedSortedArray().new Solution();
+        int[] nums = {5, 1, 3};
+        solution.search(nums, 5);
     }
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int search(int[] nums, int target) {
-            return 0;
+            if (nums == null || nums.length == 0) {
+                return -1;
+            }
+            int left = 0, right = nums.length - 1;
+            while (left < right) {
+                int mid = left + (right - left) / 2;
+                if (nums[mid] == target) {
+                    return mid;
+                } else if (nums[left] <= nums[mid]) { // 这种情况[4,5,6,7,0,1,2]
+                    if (target >= nums[left] && target < nums[mid]) {
+                        right = mid - 1;
+                    } else {
+                        left = mid + 1;
+                    }
+                } else { // 这种情况 [4,5,0,1,2,3]
+                    if (target > nums[mid] && target <= nums[right]) {
+                        left = mid + 1;
+                    } else {
+                        right = mid - 1;
+                    }
+                }
+            }
+            return nums[left] == target ? left : -1;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

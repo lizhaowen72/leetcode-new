@@ -33,9 +33,9 @@ public class PermutationsIi {
             return res;
         }
 
-        private void backTrack(List<List<Integer>> res, List<Integer> tempLis, int[] nums, boolean[] used) {
-            if (tempLis.size() == nums.length) {
-                res.add(new ArrayList<>(tempLis));
+        private void backTrack(List<List<Integer>> res, List<Integer> tempList, int[] nums, boolean[] used) {
+            if (tempList.size() == nums.length) {
+                res.add(new ArrayList<>(tempList));
                 return;
             }
             for (int i = 0; i < nums.length; i++) {
@@ -43,10 +43,10 @@ public class PermutationsIi {
                     continue;
                 }
                 used[i] = true;
-                tempLis.add(nums[i]);
-                backTrack(res, tempLis, nums, used);
+                tempList.add(nums[i]);
+                backTrack(res, tempList, nums, used);
                 used[i] = false;
-                tempLis.remove(tempLis.size() - 1);
+                tempList.remove(tempList.size() - 1);
             }
         }
     }
