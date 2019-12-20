@@ -51,26 +51,44 @@ import java.util.*;
 public class SimplifyPath {
     public static void main(String[] args) {
         Solution solution = new SimplifyPath().new Solution();
+        solution.simplifyPath("/home//foo/");
     }
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public String simplifyPath(String path) {
-            Deque<String> stack = new LinkedList<>();
-            Set<String> skip = new HashSet<>(Arrays.asList("", ".", ".."));
+            Stack<String> deque = new LinkedList<>();
+            Set<String> skip = new HashSet<>(Arrays.asList("..", ".", ""));
             for (String dir : path.split("/")) {
-                if (dir.equals("..") && !stack.isEmpty()) {
-                    stack.pop();
+                if (dir.equals("..") && !deque.isEmpty()) {
+                    deque.pop();
                 } else if (!skip.contains(dir)) {
-                    stack.push(dir);
+                    deque.push(dir);
                 }
             }
             String res = "";
-            for (String dir : stack) {
+            for (String dir : deque) {
                 res = "/" + dir + res;
             }
-            return res.isEmpty() ? "/" : res;
+            return deque.isEmpty() ? "/" : res;
+        }
+
+        public String simplifyPath2(String path) {
+            Deque<String> deque = new LinkedList<>();
+            Set<String> skip = new HashSet<>(Arrays.asList("..", ".", ""));
+            for (String dir : path.split("/")) {
+                if (dir.equals("..") && !deque.isEmpty()) {
+                    deque.pop();
+                } else if (!skip.contains(dir)) {
+                    deque.push(dir);
+                }
+            }
+            String res = "";
+            for (String dir : deque) {
+                res = "/" + dir + res;
+            }
+            return deque.isEmpty() ? "/" : res;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
