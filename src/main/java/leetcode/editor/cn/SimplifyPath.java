@@ -58,23 +58,6 @@ public class SimplifyPath {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public String simplifyPath(String path) {
-            Stack<String> deque = new LinkedList<>();
-            Set<String> skip = new HashSet<>(Arrays.asList("..", ".", ""));
-            for (String dir : path.split("/")) {
-                if (dir.equals("..") && !deque.isEmpty()) {
-                    deque.pop();
-                } else if (!skip.contains(dir)) {
-                    deque.push(dir);
-                }
-            }
-            String res = "";
-            for (String dir : deque) {
-                res = "/" + dir + res;
-            }
-            return deque.isEmpty() ? "/" : res;
-        }
-
-        public String simplifyPath2(String path) {
             Deque<String> deque = new LinkedList<>();
             Set<String> skip = new HashSet<>(Arrays.asList("..", ".", ""));
             for (String dir : path.split("/")) {
