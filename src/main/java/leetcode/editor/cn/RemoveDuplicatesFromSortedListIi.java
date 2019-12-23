@@ -16,18 +16,18 @@ package leetcode.editor.cn;
 public class RemoveDuplicatesFromSortedListIi {
     public static void main(String[] args) {
         Solution solution = new RemoveDuplicatesFromSortedListIi().new Solution();
-        ListNode node2 = new ListNode(2);
-        ListNode node22 = new ListNode(3);
-        ListNode node222 = new ListNode(3);
-        ListNode node5 = new ListNode(5);
-        ListNode node6 = new ListNode(6);
-        ListNode node44 = new ListNode(6);
-        node2.next = node22;
-        node22.next = node222;
-        node222.next = node5;
-        node5.next = node6;
-        node6.next = node44;
-        solution.deleteDuplicates(node2);
+//        ListNode node2 = new ListNode(2);
+//        ListNode node22 = new ListNode(2);
+//        ListNode node222 = new ListNode(2);
+//        ListNode node5 = new ListNode(5);
+//        ListNode node6 = new ListNode(4);
+//        ListNode node44 = new ListNode(4);
+//        node2.next = node22;
+//        node22.next = node222;
+//        node222.next = node5;
+//        node5.next = node6;
+//        node6.next = node44;
+//        solution.deleteDuplicates(node2);
     }
 
 
@@ -43,21 +43,23 @@ public class RemoveDuplicatesFromSortedListIi {
      */
     class Solution {
         public ListNode deleteDuplicates(ListNode head) {
-            if (head == null) return null;
+            if (head == null) {
+                return null;
+            }
             ListNode dummyNode = new ListNode(0);
-            ListNode pre = dummyNode;
             dummyNode.next = head;
-            ListNode curr = dummyNode;
-            while (curr != null) {
-                while (curr.next != null && curr.val == curr.next.val) {
-                    curr = curr.next;
+            ListNode pre = dummyNode;
+            ListNode cur = head;
+            while (cur != null) {
+                while (cur.next != null && cur.val == cur.next.val) {
+                    cur = cur.next;
                 }
-                if (pre.next == curr) {
-                    pre = curr;
+                if (pre.next == cur) {
+                    pre = pre.next;
                 } else {
-                    pre.next = curr.next;
+                    pre.next = cur.next;
                 }
-                curr = curr.next;
+                cur = cur.next;
             }
             return dummyNode.next;
         }
