@@ -39,44 +39,63 @@ import java.util.Deque;
 public class SlidingWindowMaximum {
     public static void main(String[] args) {
         Solution solution = new SlidingWindowMaximum().new Solution();
+        int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
+        solution.maxSlidingWindow(nums, 3);
     }
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int[] maxSlidingWindow(int[] nums, int k) {
+            if (nums == null || nums.length == 0) {
+                return nums;
+            }
+            int maxpos = -1;
+            int[] max = new int[nums.length - k + 1];
+            int i, j;
+            for (i = 0; i <= nums.length - k; i++) {
+                j = i + k - 1;
+                if (maxpos != -1 && nums[j] >= nums[maxpos]) {
+                    maxpos = j;
+                    max[i] = nums[maxpos];
+                } else if (i <= maxpos) {
+                    max[i] = nums[maxpos];
+                } else {
+                    int maxPosWindow = 0;
+                    int maxWindow = Integer.MIN_VALUE;
+                    for (int l = i; l <= j; l++) {
+                        if (nums[l] >= maxWindow) {
+                            maxPosWindow = l;
+                            maxWindow = nums[l];
+                        }
+                    }
+                    maxpos = maxPosWindow;
+                    max[i] = maxWindow;
+                }
+            }
+            return max;
+
+        }
+
+
+        public int[] maxSlidingWindow4(int[] nums, int k) {
             if (nums.length == 0) {
                 return new int[0];
             }
-
             int[] maxes = new int[nums.length - k + 1];
-
             int i, j;
-            int maxPos = -1;
-
+            int maxPos = -1;// 滑动窗口中的最大值对应nums数组中索引
             for (i = 0; i <= nums.length - k; ++i) {
-                // Ending index of the current window
                 j = i + k - 1;
-
-                // new element >= max of last window
-                // that means new element is max in the two windows
-                // here using >= to make maxPos stay in the windows for a longer time
-                if (maxPos != -1 && nums[j] >= nums[maxPos]) {
+                if (maxPos != -1 && nums[j] >= nums[maxPos]) {// 如果新加入到滑动窗口中的元素大于等于当前滑动窗口的最大元素,则maxpos要更新
                     maxPos = j;
                     maxes[i] = nums[maxPos];
-                }
-                // new element < max of last window
-                // AND the max of last window is also in this window
-                // => it means the max of the last window is still the max of this window
-                else if (i <= maxPos) {
+                } else if (i <= maxPos) {// 如果新加入的元素小于当前滑动窗口的最大元素,并且
                     maxes[i] = nums[maxPos];
-                }
-                // new element < max of last window
-                // AND the max of last window is not in this window
-                // So we do not know which element is the max in this window, we have to scan the window to find it
-                else {
-                    int maxWindow = Integer.MIN_VALUE;
-                    int maxPosWindow = 0;
+                } else {
+                    int maxWindow = Integer.MIN_VALUE; // 滑动窗口中的最大值
+                    int maxPosWindow = 0;// 滑动窗口中最大值的索引
                     for (int z = i; z <= j; ++z) {
                         if (nums[z] > maxWindow) {
                             maxPosWindow = z;
@@ -89,6 +108,7 @@ public class SlidingWindowMaximum {
             }
             return maxes;
         }
+
         public int[] maxSlidingWindow3(int[] nums, int k) {
             if (nums == null || k <= 0) {
                 return new int[0];
