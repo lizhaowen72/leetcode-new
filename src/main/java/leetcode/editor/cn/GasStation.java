@@ -50,13 +50,26 @@ package leetcode.editor.cn;
 public class GasStation {
     public static void main(String[] args) {
         Solution solution = new GasStation().new Solution();
+        int[] gas = {1, 2, 3, 4, 5};
+        int[] cost = {3, 4, 5, 1, 2};
+        solution.canCompleteCircuit(gas, cost);
     }
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int canCompleteCircuit(int[] gas, int[] cost) {
-            return 0;
+            int spare = 0;
+            int minSpare = Integer.MAX_VALUE;
+            int minIndex = 0;
+            for (int i = 0; i < gas.length; i++) {
+                spare += gas[i] - cost[i];
+                if (spare < minSpare) {
+                    minSpare = spare;
+                    minIndex = i;
+                }
+            }
+            return spare < 0 ? -1 : (minIndex + 1) % gas.length;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

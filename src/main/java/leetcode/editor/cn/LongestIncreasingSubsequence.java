@@ -21,14 +21,36 @@ package leetcode.editor.cn;
 public class LongestIncreasingSubsequence {
     public static void main(String[] args) {
         Solution solution = new LongestIncreasingSubsequence().new Solution();
-        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
+        int[] nums = {4, 5, 6, 3};
         solution.lengthOfLIS(nums);
     }
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int lengthOfLIS(int[] nums) {
+            int[] tails = new int[nums.length];
+            int size = 0;
+            for (int x : nums) {
+                int i = 0, j = size;
+                while (i != j) {
+                    int mid = i + (j - i) / 2;
+                    if (tails[mid] < x) {
+                        i = mid + 1;
+                    } else {
+                        j = mid;
+                    }
+                }
+                tails[i] = x;
+                if (i == size) {
+                    ++size;
+                }
+            }
+            return size;
+        }
+
+        public int lengthOfLIS2(int[] nums) {
             if (nums.length == 0) return 0;
             int[] dp = new int[nums.length];
             dp[0] = 1;
