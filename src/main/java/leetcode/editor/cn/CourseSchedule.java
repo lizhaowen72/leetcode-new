@@ -41,7 +41,7 @@ import java.util.Queue;
 public class CourseSchedule {
     public static void main(String[] args) {
         Solution solution = new CourseSchedule().new Solution();
-        int[][] prerequisites =  {{1,0},{2,0},{3,1},{3,2}};
+        int[][] prerequisites = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
         boolean finish = solution.canFinish(4, prerequisites);
         System.out.println(finish);
     }
@@ -52,30 +52,31 @@ public class CourseSchedule {
         /**
          * 顶点的度是指和该顶点相连的边的条数。特别是对于有向图来说，
          * 顶点的出边条数称为该顶点的出度，顶点的入边条数称为该顶点的入度
+         *
          * @param numCourses
          * @param prerequisites
          * @return
          */
         public boolean canFinish(int numCourses, int[][] prerequisites) {
-            int[] indegrees = new int[numCourses];
+            int[] indegree = new int[numCourses];
             for (int[] cp : prerequisites) {
-                indegrees[cp[0]]++;
+                indegree[cp[0]]++;
             }
             LinkedList<Integer> queue = new LinkedList<>();
             for (int i = 0; i < numCourses; i++) {
-                if (indegrees[i] == 0) {
+                if (indegree[i] == 0) {
                     queue.addLast(i);
                 }
             }
             while (!queue.isEmpty()) {
-                Integer pre = queue.removeFirst();
+                int pre = queue.removeFirst();
                 numCourses--;
-                for (int[] req : prerequisites) {
-                    if (req[1] != pre) {
+                for (int[] pq : prerequisites) {
+                    if (pq[1] != pre) {
                         continue;
                     }
-                    if (--indegrees[req[0]] == 0) {
-                        queue.add(req[0]);
+                    if (--indegree[pq[0]] == 0) {
+                        queue.add(pq[0]);
                     }
                 }
             }
