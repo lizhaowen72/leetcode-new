@@ -1,5 +1,7 @@
 package leetcode.editor.cn;
 
+import java.util.LinkedList;
+
 //现在你总共有 n 门课需要选，记为 0 到 n-1。
 //
 // 在选修某些课程之前需要一些先修课程。 例如，想要学习课程 0 ，你需要先完成课程 1 ，我们用一个匹配来表示他们: [0,1] 
@@ -42,13 +44,41 @@ package leetcode.editor.cn;
 public class CourseScheduleIi {
     public static void main(String[] args) {
         Solution solution = new CourseScheduleIi().new Solution();
+        int[][] pre = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
+        solution.findOrder(4, pre);
     }
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] findOrder(int numCourses, int[][] prerequisites) {
-            return null;
+            int[] indegrees = new int[numCourses];
+            for (int[] cp : prerequisites) {
+                indegrees[cp[0]]++;
+            }
+            LinkedList<Integer> queue = new LinkedList<>();
+            for (int i = 0; i < numCourses; i++) {
+                if (indegrees[i] == 0) {
+                    queue.addLast(i);
+                }
+            }
+            int[] coures = new int[numCourses];
+            int i = 0;
+            while (!queue.isEmpty()) {
+                Integer pre = queue.removeFirst();
+                numCourses--;
+                coures[i++] = pre;
+                for (int[] pq : prerequisites) {
+                    if (pq[1] != pre) {
+                        continue;
+                    }
+                    if (--indegrees[pq[0]] == 0) {
+                        queue.add(pq[0]);
+                    }
+                }
+            }
+
+            return numCourses == 0 ? coures : new int[0];
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
