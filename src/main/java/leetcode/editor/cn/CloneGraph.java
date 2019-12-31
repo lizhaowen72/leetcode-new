@@ -1,9 +1,6 @@
 package leetcode.editor.cn;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 //给定无向连通图中一个节点的引用，返回该图的深拷贝（克隆）。图中的每个节点都包含它的值 val（Int） 和其邻居的列表（list[Node]）。
 //
@@ -78,7 +75,48 @@ class Node {
     class Solution {
         public Node cloneGraph(Node node) {
             Map<Node, Node> lookup = new HashMap<>();
-            return dfs(node, lookup);
+            //return dfs(node, lookup);
+            return cloneGraphDFS(node);
+        }
+
+        // BFS
+        public Node cloneGraphBFS(Node node) {
+            Node root = new Node(node.val, new ArrayList<>());
+            Queue<Node> queue = new LinkedList<>();
+            Map<Node, Node> map = new HashMap<>();
+            map.put(node, root);
+            queue.add(node);
+            while (!queue.isEmpty()) {
+                Node currNode = queue.poll();
+                for (Node child : currNode.neighbors) {
+                    if (!map.containsKey(child)) {
+                        map.put(child, new Node(child.val, new ArrayList<>()));
+                        queue.add(child);
+                    }
+                    map.get(currNode).neighbors.add(map.get(child));
+                }
+            }
+            return root;
+        }
+
+        //DFS
+        public Node cloneGraphDFS(Node node) {
+            Node root = new Node(node.val, new ArrayList<>());
+            Stack<Node> stack = new Stack<>();
+            Map<Node, Node> map = new HashMap<>();
+            map.put(node, root);
+            stack.add(node);
+            while (!stack.isEmpty()) {
+                Node currNode = stack.pop();
+                for (Node child : currNode.neighbors) {
+                    if (!map.containsKey(child)) {
+                        map.put(child, new Node(child.val, new ArrayList<>()));
+                        stack.add(child);
+                    }
+                    map.get(currNode).neighbors.add(map.get(child));
+                }
+            }
+            return root;
         }
 
         private Node dfs(Node node, Map<Node, Node> lookup) {
