@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89026e5a-e6cb-42e4-958d-33fb78e5160f" name="Default Changelist" comment="12.11号提交">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CourseSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertSortedArrayToBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertSortedArrayToBinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSum$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSum$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSum.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../dev/linux-dev-tools/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../dev/linux-dev-tools/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ub0JNTpOlQcbDWIWFA9sGibixq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+  </component>
+  <component name="RunManager" selected="Application.CourseSchedule">
+    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.CourseSchedule" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.LongestIncreasingSubsequence" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LruCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.LruCache" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumProductSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.MaximumProductSubarray" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimplifyPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.SimplifyPath" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CourseSchedule" />
+        <item itemvalue="Application.MaximumProductSubarray" />
+        <item itemvalue="Application.LongestIncreasingSubsequence" />
+        <item itemvalue="Application.LruCache" />
+        <item itemvalue="Application.SimplifyPath" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89026e5a-e6cb-42e4-958d-33fb78e5160f" name="Default Changelist" comment="" />
+      <created>1575609914615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575609914615</updated>
+      <workItem from="1575609915864" duration="1197000" />
+      <workItem from="1575622722349" duration="585000" />
+      <workItem from="1575623979852" duration="4916000" />
+      <workItem from="1575853811836" duration="876000" />
+      <workItem from="1575866252480" duration="3868000" />
+      <workItem from="1575895994218" duration="490000" />
+      <workItem from="1576038790238" duration="3811000" />
+      <workItem from="1576066301125" duration="1312000" />
+      <workItem from="1576125554514" duration="2683000" />
+      <workItem from="1576213969101" duration="229000" />
+      <workItem from="1576731242983" duration="3438000" />
+      <workItem from="1576761601322" duration="285000" />
+      <workItem from="1576761898948" duration="809000" />
+      <workItem from="1576762730330" duration="599000" />
+      <workItem from="1576780630700" duration="217000" />
+      <workItem from="1576780878591" duration="56000" />
+      <workItem from="1576820511996" duration="15000" />
+      <workItem from="1576821451140" duration="599000" />
+      <workItem from="1577062883704" duration="6725000" />
+      <workItem from="1577077765592" duration="2479000" />
+      <workItem from="1577164257908" duration="3365000" />
+      <workItem from="1577169475652" duration="1242000" />
+      <workItem from="1577239677446" duration="630000" />
+      <workItem from="1577243516552" duration="1989000" />
+      <workItem from="1577322843725" duration="6336000" />
+      <workItem from="1577698411155" duration="619000" />
+    </task>
+    <task id="LOCAL-00001" summary="12">
+      <created>1575854050448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575854050448</updated>
+    </task>
+    <task id="LOCAL-00002" summary="12.9号提交">
+      <created>1575896268380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575896268380</updated>
+    </task>
+    <task id="LOCAL-00003" summary="12.11号提交">
+      <created>1576044090931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576044090931</updated>
+    </task>
+    <task id="LOCAL-00004" summary="12.11号提交">
+      <created>1576643640006</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576643640006</updated>
+    </task>
+    <task id="LOCAL-00005" summary="12.18号中午提交">
+      <created>1576647649296</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576647649296</updated>
+    </task>
+    <task id="LOCAL-00006" summary="12.18号提交">
+      <created>1576739064953</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576739064953</updated>
+    </task>
+    <task id="LOCAL-00007" summary="12.11号提交">
+      <created>1576780863114</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576780863114</updated>
+    </task>
+    <task id="LOCAL-00008" summary="提交">
+      <created>1577065769070</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577065769070</updated>
+    </task>
+    <task id="LOCAL-00009" summary="12.23号提交">
+      <created>1577096031801</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577096031801</updated>
+    </task>
+    <task id="LOCAL-00010" summary="12.11号提交">
+      <created>1577182060791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577182060791</updated>
+    </task>
+    <task id="LOCAL-00011" summary="提交">
+      <created>1577323711444</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577323711444</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12" />
+    <MESSAGE value="12.9号提交" />
+    <MESSAGE value="12.18号中午提交" />
+    <MESSAGE value="12.18号提交" />
+    <MESSAGE value="12.23号提交" />
+    <MESSAGE value="12.11号提交" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575610413732">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state x="595" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1026@0.0.1920.1026" timestamp="1575610413732" />
+    <state x="772" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1577076401269">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="772" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1037@0.0.1920.1037" timestamp="1577076401269" />
+    <state x="796" y="404" width="328" height="228" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577763575919">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="796" y="404" width="328" height="228" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1577763575919" />
+    <state x="492" y="105" width="936" height="827" key="CommitChangelistDialog2" timestamp="1577763537964">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="492" y="105" width="936" height="827" key="CommitChangelistDialog2/0.0.1920.1037@0.0.1920.1037" timestamp="1577763537964" />
+    <state x="724" y="268" key="FileChooserDialogImpl" timestamp="1577069259888">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="724" y="265" key="FileChooserDialogImpl/0.0.1920.1026@0.0.1920.1026" timestamp="1575610073922" />
+    <state x="724" y="268" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1577069259888" />
+    <state width="1872" height="469" key="GridCell.Tab.0.bottom" timestamp="1577346254846">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="469" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1577346254846" />
+    <state width="1872" height="469" key="GridCell.Tab.0.center" timestamp="1577346254846">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="469" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1577346254846" />
+    <state width="1872" height="469" key="GridCell.Tab.0.left" timestamp="1577346254845">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="469" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1577346254845" />
+    <state width="1872" height="469" key="GridCell.Tab.0.right" timestamp="1577346254846">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="469" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1577346254846" />
+    <state width="1872" height="469" key="GridCell.Tab.1.bottom" timestamp="1577346254846">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="469" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1577346254846" />
+    <state width="1872" height="469" key="GridCell.Tab.1.center" timestamp="1577346254846">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="469" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1577346254846" />
+    <state width="1872" height="469" key="GridCell.Tab.1.left" timestamp="1577346254846">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="469" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1577346254846" />
+    <state width="1872" height="469" key="GridCell.Tab.1.right" timestamp="1577346254846">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="469" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1577346254846" />
+    <state x="663" y="228" key="MultipleFileMergeDialog" timestamp="1577323729644">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="663" y="228" key="MultipleFileMergeDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1577323729644" />
+    <state x="657" y="220" width="566" height="564" key="RollbackChangesDialog" timestamp="1577323667827">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="657" y="218" key="RollbackChangesDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1575610498844" />
+    <state x="657" y="220" width="566" height="564" key="RollbackChangesDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1577323667827" />
+    <state x="430" y="110" width="1490" height="742" key="SettingsEditor" timestamp="1577077883680">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="430" y="109" width="1278" height="742" key="SettingsEditor/0.0.1920.1026@0.0.1920.1026" timestamp="1575610508414" />
+    <state x="430" y="110" width="1490" height="742" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1577077883680" />
+    <state x="559" y="248" width="802" height="540" key="Vcs.Push.Dialog.v2" timestamp="1577763550245">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="559" y="248" width="802" height="540" key="Vcs.Push.Dialog.v2/0.0.1920.1037@0.0.1920.1037" timestamp="1577763550245" />
+    <state x="706" y="302" key="git4idea.merge.GitMergeDialog" timestamp="1575693348230">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="706" y="302" key="git4idea.merge.GitMergeDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1575693348230" />
+    <state x="581" y="299" width="758" height="433" key="git4idea.merge.GitPullDialog" timestamp="1577763582433">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="581" y="296" key="git4idea.merge.GitPullDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1575610423315" />
+    <state x="581" y="299" width="758" height="433" key="git4idea.merge.GitPullDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1577763582433" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaximalRectangle.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaximalRectangle.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/AddBinary.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/Sqrtx.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LinkedListCycle.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LinkedListCycle.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/IntersectionOfTwoLinkedLists.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PowxN.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SearchA2dMatrix.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LruCache.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LruCache.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LruCache.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LruCache.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LruCache.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestIncreasingSubsequence.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaximumProductSubarray.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
