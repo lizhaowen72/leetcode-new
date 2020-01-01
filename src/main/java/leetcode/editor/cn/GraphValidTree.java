@@ -69,9 +69,9 @@ public class GraphValidTree {
                     return false;
                 }
                 // 压缩路径
-                if (xRoot > yRoot) {
+                if (rank[xRoot] > rank[yRoot]) {
                     parent[yRoot] = xRoot;
-                } else if (xRoot < yRoot) {
+                } else if (rank[xRoot] < rank[yRoot]) {
                     parent[xRoot] = yRoot;
                 } else {
                     parent[yRoot] = xRoot;
