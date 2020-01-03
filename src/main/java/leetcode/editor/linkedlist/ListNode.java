@@ -1,7 +1,8 @@
-package leetcode.editor.cn;
+package leetcode.editor.linkedlist;
 
 public class ListNode {
     int val;
+
     ListNode next;
 
     public ListNode(int val) {

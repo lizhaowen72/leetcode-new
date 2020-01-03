@@ -1,5 +1,5 @@
-package leetcode.editor.cn; 
- //给定一个二叉搜索树的根节点 root 和一个值 key，删除二叉搜索树中的 key 对应的节点，并保证二叉搜索树的性质不变。返回二叉搜索树（有可能被更新）的根节点的引用。 
+package leetcode.editor.cn;
+//给定一个二叉搜索树的根节点 root 和一个值 key，删除二叉搜索树中的 key 对应的节点，并保证二叉搜索树的性质不变。返回二叉搜索树（有可能被更新）的根节点的引用。
 //
 // 一般来说，删除节点可分为两个步骤： 
 //
@@ -41,29 +41,30 @@ package leetcode.editor.cn;
 //    4   7
 // 
 // Related Topics 树
-  
 
-  public class DeleteNodeInABst{
-      public static void main(String[] args) {
-           Solution solution = new DeleteNodeInABst().new Solution();
-      }
+
+public class DeleteNodeInABst {
+    public static void main(String[] args) {
+        Solution solution = new DeleteNodeInABst().new Solution();
+    }
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-class Solution {
-    public TreeNode deleteNode(TreeNode root, int key) {
-        
+
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode(int x) { val = x; }
+     * }
+     */
+    class Solution {
+        public TreeNode deleteNode(TreeNode root, int key) {
+            return null;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
