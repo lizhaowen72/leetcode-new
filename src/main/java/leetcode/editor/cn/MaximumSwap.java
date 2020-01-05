@@ -25,8 +25,6 @@ package leetcode.editor.cn;
 // Related Topics 数组 数学
 
 
-import com.sun.org.apache.bcel.internal.generic.SWAP;
-
 import java.util.Arrays;
 
 public class MaximumSwap {
@@ -53,14 +51,16 @@ public class MaximumSwap {
             if (diff == -1) {
                 return num;
             }
-            for (int i = oldNum.length-1; i >=diff; i++) {
-                if (oldNum[i]==orderNum[orderNum.length-1-diff]){
-                    swap(oldNum,diff,i);
+            for (int i = oldNum.length - 1; i >= diff; i++) {
+                if (oldNum[i] == orderNum[orderNum.length - 1 - diff]) {
+                    swap(oldNum, diff, i);
                 }
             }
+            return 0;
         }
 
         private void swap(char[] oldNum, int diff, int i) {
+
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
