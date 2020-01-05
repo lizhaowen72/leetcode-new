@@ -57,10 +57,81 @@ class Node {
 };
 */
     class Solution {
+        Node first = null;
+        Node last = null;
+
         public Node treeToDoublyList(Node root) {
-            return null;
+            if (root == null) return null;
+            helper(root);
+            first.left = last;
+            last.right = first;
+            return first;
+        }
+
+        public void helper(Node root) {
+            if (root == null) return;
+            helper(root.left);
+            if (last != null) {
+                last.right = root;
+                root.left = last;
+            } else {
+                first = root;
+            }
+            last = root;
+            helper(root.right);
+        }
+
+    }
+
+
+    class Solution1 {
+        Node first = null;
+        Node last = null;
+
+        public Node treeToDoublyList(Node root) {
+            if (root == null) return null;
+            helper(root);
+            // 将最前与最后的结点链接完成闭环，返回 first 。
+            last.right = first;
+            first.left = last;
+            return first;
+        }
+
+        // 标准中序遍历
+        private void helper(Node root) {
+            if (root != null) {
+                helper(root.left);
+                // 若 last 结点不为空，将 last 与当前的 node 链接。
+                if (last != null) {
+                    last.right = root;
+                    root.left = last;
+                } else {// 否则初始化 first 结点
+                    first = root;
+                }
+                // 将当前结点标记为最后 : last = node.
+                last = root;
+                helper(root.right);
+            }
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
 
+    //leetcode submit region end(Prohibit modification and deletion)
+    static class Node {
+        int val;
+        Node left;
+        Node right;
+
+        public Node() {
+        }
+
+        public Node(int val) {
+            this.val = val;
+        }
+
+        public Node(int val, Node left, Node right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 }

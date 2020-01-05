@@ -24,18 +24,20 @@ package leetcode.editor.cn;
 //解释: 另一种有效的行程是 ["JFK","SFO","ATL","JFK","ATL","SFO"]。但是它自然排序更大更靠后。 
 // Related Topics 深度优先搜索 图
 
-public class ReconstructItinerary{
+import java.util.List;
+
+public class ReconstructItinerary {
     public static void main(String[] args) {
-         Solution solution = new ReconstructItinerary().new Solution();
+        Solution solution = new ReconstructItinerary().new Solution();
     }
 
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public List<String> findItinerary(List<List<String>> tickets) {
-        
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public List<String> findItinerary(List<List<String>> tickets) {
+            return null;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

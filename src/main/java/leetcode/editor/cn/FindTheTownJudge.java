@@ -66,7 +66,7 @@ public class FindTheTownJudge{
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int findJudge(int N, int[][] trust) {
-        
+        return 0;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
