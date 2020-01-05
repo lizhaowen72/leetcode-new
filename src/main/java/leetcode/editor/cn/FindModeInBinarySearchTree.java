@@ -34,6 +34,18 @@ import java.util.Map;
 public class FindModeInBinarySearchTree {
     public static void main(String[] args) {
         Solution solution = new FindModeInBinarySearchTree().new Solution();
+        TreeNode node1 = new TreeNode(5);
+        TreeNode node2 = new TreeNode(4);
+        TreeNode node3 = new TreeNode(3);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node5 = new TreeNode(6);
+        TreeNode node6 = new TreeNode(6);
+        node1.left = node2;
+        node1.right = node5;
+        node2.left = node3;
+        node2.right = node4;
+        node5.left = node6;
+        solution.findMode(node1);
     }
 
 
@@ -49,15 +61,55 @@ public class FindModeInBinarySearchTree {
      * }
      */
     class Solution {
+        private int currVal;
+        private int currCount = 0;
+        private int maxCount = 0;
+        private int modeCount = 0;
+        private int[] modes;
+
+        public int[] findMode(TreeNode root) {
+            inorder(root);
+            modes = new int[modeCount];
+            modeCount = 0;
+            currCount = 0;
+            inorder(root);
+            return modes;
+        }
+
+        private void inorder(TreeNode root) {
+            if (root == null) return;
+            inorder(root.left);
+            handleValue(root.val);
+            inorder(root.right);
+        }
+
+        private void handleValue(int val) {
+            if (val != currVal) {
+                currVal = val;
+                currCount = 0;
+            }
+            currCount++;
+            if (currCount > maxCount) {
+                maxCount = currCount;
+                modeCount = 1;
+            } else if (currCount == maxCount) {
+                if (modes != null) {
+                    modes[modeCount] = currVal;
+                }
+                modeCount++;
+            }
+        }
+
+
         Map<Integer, Integer> map;
         int max = 0;
 
-        public int[] findMode(TreeNode root) {
+        public int[] findMode2(TreeNode root) {
             if (root == null) {
                 return new int[0];
             }
             map = new HashMap<>();
-            inorder(root);
+            inorder2(root);
             List<Integer> list = new LinkedList<>();
             for (Integer key : map.keySet()) {
                 if (map.get(key) == max) {
@@ -71,14 +123,14 @@ public class FindModeInBinarySearchTree {
             return res;
         }
 
-        private void inorder(TreeNode root) {
+        private void inorder2(TreeNode root) {
             if (root.left != null) {
-                inorder(root.left);
+                inorder2(root.left);
             }
             map.put(root.val, map.getOrDefault(root.val, 0) + 1);
             max = Math.max(max, map.get(root.val));
             if (root.right != null) {
-                inorder(root.right);
+                inorder2(root.right);
             }
         }
     }
