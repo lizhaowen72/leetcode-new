@@ -20,6 +20,16 @@ package leetcode.editor.cn;
 public class DiameterOfBinaryTree {
     public static void main(String[] args) {
         Solution solution = new DiameterOfBinaryTree().new Solution();
+        TreeNode node1 = new TreeNode(1);
+        TreeNode node2 = new TreeNode(2);
+        TreeNode node3 = new TreeNode(3);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node5 = new TreeNode(5);
+        node1.left = node2;
+        node1.right = node3;
+        node2.left = node4;
+        node2.right = node5;
+        solution.diameterOfBinaryTree(node1);
     }
 
 
@@ -39,7 +49,8 @@ public class DiameterOfBinaryTree {
 
         /**
          * For every node, length of longest path which pass it = MaxDepth of its left subtree + MaxDepth of its right subtree.
-         *
+         * diameter:直径
+         * 对于每个节点，通过它的最长路径的长度=左侧子树的MaxDepth +右侧子树的MaxDepth。
          * @param root
          * @return
          */

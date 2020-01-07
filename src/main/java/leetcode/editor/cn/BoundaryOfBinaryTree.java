@@ -53,27 +53,30 @@ package leetcode.editor.cn;
 // 
 // Related Topics 树
 
-public class BoundaryOfBinaryTree{
+import java.util.List;
+
+public class BoundaryOfBinaryTree {
     public static void main(String[] args) {
-         Solution solution = new BoundaryOfBinaryTree().new Solution();
+        Solution solution = new BoundaryOfBinaryTree().new Solution();
     }
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-class Solution {
-    public List<Integer> boundaryOfBinaryTree(TreeNode root) {
-        
+
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode(int x) { val = x; }
+     * }
+     */
+    class Solution {
+        public List<Integer> boundaryOfBinaryTree(TreeNode root) {
+            return null;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }

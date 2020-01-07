@@ -33,8 +33,23 @@ public class SumOfLeftLeaves {
      * }
      */
     class Solution {
+        int res = 0;
+
         public int sumOfLeftLeaves(TreeNode root) {
-            return 0;
+            if (root == null) {
+                return 0;
+            }
+            helper(root, null);
+            return res;
+        }
+
+        private void helper(TreeNode root, TreeNode pre) {
+            if (root == null) return;
+            if (root.left == null && root.right == null && pre != null && pre.left == root) {
+                res += root.val;
+            }
+            helper(root.left, root);
+            helper(root.right, root);
         }
     }
 
