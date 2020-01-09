@@ -1,6 +1,6 @@
 package leetcode.editor.cn;
 
-import java.util.List;
+import java.util.*;
 
 //城市的天际线是从远处观看该城市中所有建筑物形成的轮廓的外部轮廓。现在，假设您获得了城市风光照片（图A）上显示的所有建筑物的位置和高度，请编写一个程序以输出由这些建筑物形成的天际线（图B）。
 //
@@ -23,18 +23,49 @@ import java.util.List;
 // 输出天际线中不得有连续的相同高度的水平线。例如 [...[2 3], [4 5], [7 5], [11 5], [12 7]...] 是不正确的答案；三条高度为 5 的线应该在最终输出中合并为一个：[...[2 3], [4 5], [12 7], ...] 
 // 
 // Related Topics 堆 树状数组 线段树 分治算法 Line Sweep
-public class TheSkylineProblem{
+public class TheSkylineProblem {
     public static void main(String[] args) {
-         Solution solution = new TheSkylineProblem().new Solution();
+        Solution solution = new TheSkylineProblem().new Solution();
+        int[][] buildings = {{2, 9, 10}, {3, 7, 15}, {5, 12, 12}, {15, 20, 10}, {19, 24, 8}};
+        solution.getSkyline(buildings);
     }
-    
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public List<List<Integer>> getSkyline(int[][] buildings) {
-        return null;
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public List<List<Integer>> getSkyline(int[][] buildings) {
+            List<int[]> heights = new ArrayList<>();
+            for (int[] building : buildings) {
+                heights.add(new int[]{building[0], -building[2]});
+                heights.add(new int[]{building[1], building[2]});
+            }
+            Collections.sort(heights, (a, b) -> (a[0] == b[0]) ? a[1] - b[1] : a[0] - b[0]);
+            TreeMap<Integer, Integer> heightMap = new TreeMap<>(Collections.reverseOrder());
+            heightMap.put(0, 1);
+            int prevHeight = 0;
+            List<List<Integer>> skyLine = new LinkedList<>();
+            for (int[] h : heights) {
+                if (h[1] < 0) {
+                    Integer cnt = heightMap.get(-h[1]);
+                    cnt = (cnt == null) ? 1 : cnt + 1;
+                    heightMap.put(-h[1], cnt);
+                } else {
+                    Integer cnt = heightMap.get(h[1]);
+                    if (cnt == 1) {
+                        heightMap.remove(h[1]);
+                    } else {
+                        heightMap.put(h[1], cnt - 1);
+                    }
+                }
+                int currHeight = heightMap.firstKey();
+                if (prevHeight != currHeight) {
+                    skyLine.add(Arrays.asList(h[0], currHeight));
+                    prevHeight = currHeight;
+                }
+            }
+            return skyLine;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
