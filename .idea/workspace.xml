@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32aa0a8b-0def-491b-b184-9f1023bf9d21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/binarysearch/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KClosestPointsToOrigin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/divide/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/binarysearch/MedianOfTwoSortedArrays$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/binarysearch/MedianOfTwoSortedArrays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KClosestPointsToOrigin$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KClosestPointsToOrigin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/divide/MedianOfTwoSortedArrays$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/divide/MedianOfTwoSortedArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TheSkylineProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TheSkylineProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TheSkylineProblem$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TheSkylineProblem$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TheSkylineProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TheSkylineProblem.class" afterDir="false" />
     </list>
     <list id="960db9fa-e9f0-4bf5-84e7-62a6789aaa84" name="ignore" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,11 +88,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="leetcode.editor.binarysearch" />
-      <recent name="leetcode.editor.divide" />
       <recent name="leetcode.editor.tree" />
       <recent name="leetcode.editor.hashmap" />
       <recent name="leetcode.editor.array" />
+      <recent name="leetcode.editor.divide" />
+      <recent name="leetcode.editor.linkedlist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/editor/dp" />
@@ -121,9 +102,22 @@
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/editor/tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TheSkylineProblem">
+  <component name="RunManager" selected="Application.LongestUnivaluePath">
     <configuration name="ConstructStringFromBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ConstructStringFromBinaryTree" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.DiameterOfBinaryTree" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -161,19 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheSkylineProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.TheSkylineProblem" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TrimABinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.TrimABinarySearchTree" />
       <module name="leetcode" />
@@ -189,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TheSkylineProblem" />
         <item itemvalue="Application.LongestUnivaluePath" />
         <item itemvalue="Application.SecondMinimumNodeInABinaryTree" />
         <item itemvalue="Application.TrimABinarySearchTree" />
         <item itemvalue="Application.ConstructStringFromBinaryTree" />
+        <item itemvalue="Application.DiameterOfBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -268,8 +249,7 @@
       <workItem from="1578272826789" duration="6873000" />
       <workItem from="1578294437876" duration="12459000" />
       <workItem from="1578361132734" duration="10630000" />
-      <workItem from="1578491383164" duration="830000" />
-      <workItem from="1578575032274" duration="4492000" />
+      <workItem from="1578392364861" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="提交123">
       <created>1575302099626</created>
@@ -453,12 +433,12 @@
       <option name="project" value="LOCAL" />
       <updated>1578304862766</updated>
     </task>
-    <task id="LOCAL-00027" summary="1.6提交代码">
-      <created>1578403569675</created>
+    <task id="LOCAL-00027" summary="12月17号晚上提交代码">
+      <created>1578392411371</created>
       <option name="number" value="00027" />
       <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1578403569675</updated>
+      <updated>1578392411371</updated>
     </task>
     <option name="localTasksCounter" value="28" />
     <servers />
@@ -526,10 +506,10 @@
     <MESSAGE value="12月27号凌晨提交代码" />
     <MESSAGE value="12月28号晚上提交代码" />
     <MESSAGE value="12月29号晚上提交代码" />
-    <MESSAGE value="12月17号晚上提交代码" />
     <MESSAGE value="提交代码" />
     <MESSAGE value="1.6提交代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.6提交代码" />
+    <MESSAGE value="12月17号晚上提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月17号晚上提交代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" width="802" height="689" key="#Notifications" timestamp="1578044251095">
@@ -558,36 +538,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="809" y="213" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1577548810994" />
-    <state x="560" y="112" width="1440" height="859" key="CommitChangelistDialog2" timestamp="1578403567793">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="560" y="112" width="1440" height="859" key="CommitChangelistDialog2" timestamp="1578392411079">
+      <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="0" y="-1" width="1440" height="859" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578057809064" />
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1037@0.0.1920.1037" timestamp="1578392372251" />
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578403567793" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1037@0.0.1920.1037" timestamp="1578392411079" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577719997155" />
     <state x="694" y="255" key="FileChooserDialogImpl" timestamp="1577931219882">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="694" y="255" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1577931219882" />
-    <state width="1877" height="317" key="GridCell.Tab.0.bottom" timestamp="1578579171817">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1872" height="254" key="GridCell.Tab.0.bottom" timestamp="1578392353987">
+      <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1872" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353987" />
-    <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578579171817" />
-    <state width="1877" height="317" key="GridCell.Tab.0.center" timestamp="1578579171817">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="509" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577720010379" />
+    <state width="1872" height="254" key="GridCell.Tab.0.center" timestamp="1578392353987">
+      <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1872" height="254" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353987" />
-    <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578579171817" />
-    <state width="1877" height="317" key="GridCell.Tab.0.left" timestamp="1578579171817">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="509" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577720010379" />
+    <state width="1872" height="254" key="GridCell.Tab.0.left" timestamp="1578392353987">
+      <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1872" height="254" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353987" />
-    <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578579171817" />
-    <state width="1877" height="317" key="GridCell.Tab.0.right" timestamp="1578579171817">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="509" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577720010379" />
+    <state width="1872" height="254" key="GridCell.Tab.0.right" timestamp="1578392353987">
+      <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state width="1872" height="254" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353987" />
-    <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578579171817" />
+    <state width="1877" height="509" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577720010379" />
     <state width="1872" height="280" key="GridCell.Tab.1.bottom" timestamp="1578392353985">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -635,21 +615,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575986989997" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1578403573180">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1578392413138">
+      <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="414" y="219" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578057811950" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1037@0.0.1920.1037" timestamp="1578304864504" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578403573180" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1037@0.0.1920.1037" timestamp="1578392413138" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577720004931" />
     <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1575989885268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575989885268" />
-    <state x="654" y="311" width="758" height="433" key="git4idea.merge.GitPullDialog" timestamp="1578403600195">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="654" y="310" width="758" height="433" key="git4idea.merge.GitPullDialog" timestamp="1578359915622">
+      <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="654" y="310" width="758" height="433" key="git4idea.merge.GitPullDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578359915622" />
-    <state x="654" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578403600195" />
+    <state x="654" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577805336435" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1203,11 +1183,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestUnivaluePath.java</url>
           <line>85</line>
           <option name="timeStamp" value="242" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TheSkylineProblem.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="243" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseInteger.java</url>
