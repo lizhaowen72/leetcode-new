@@ -16,18 +16,18 @@ package leetcode.editor.cn;
 // 
 // Related Topics 字符串 动态规划
 
-public class LongestValidParentheses{
+public class LongestValidParentheses {
     public static void main(String[] args) {
-         Solution solution = new LongestValidParentheses().new Solution();
+        Solution solution = new LongestValidParentheses().new Solution();
     }
 
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int longestValidParentheses(String s) {
-        
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int longestValidParentheses(String s) {
+            return 0;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
