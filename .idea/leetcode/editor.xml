@@ -11,14 +11,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BeautifulArray.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BeautifulArray.java" />
-              <option name="questionId" value="968" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BinaryTreeTilt.java">
           <value>
             <LeetcodeEditor>
@@ -35,27 +27,11 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KClosestPointsToOrigin.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KClosestPointsToOrigin.java" />
-              <option name="questionId" value="1014" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestUnivaluePath.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestUnivaluePath.java" />
               <option name="questionId" value="687" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestValidParentheses.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestValidParentheses.java" />
-              <option name="questionId" value="32" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -67,14 +43,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MedianOfTwoSortedArrays.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MedianOfTwoSortedArrays.java" />
-              <option name="questionId" value="4" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MergeTwoBinaryTrees.java">
           <value>
             <LeetcodeEditor>
@@ -83,11 +51,51 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/NextGreaterNodeInLinkedList.java">
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumAbsoluteDifferenceInBst.java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/NextGreaterNodeInLinkedList.java" />
-              <option name="questionId" value="1072" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumAbsoluteDifferenceInBst.java" />
+              <option name="questionId" value="530" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumDistanceBetweenBstNodes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumDistanceBetweenBstNodes.java" />
+              <option name="questionId" value="799" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/NAryTreePostorderTraversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/NAryTreePostorderTraversal.java" />
+              <option name="questionId" value="776" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/NAryTreePreorderTraversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/NAryTreePreorderTraversal.java" />
+              <option name="questionId" value="775" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveInvalidParentheses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveInvalidParentheses.java" />
+              <option name="questionId" value="301" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SearchInABinarySearchTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SearchInABinarySearchTree.java" />
+              <option name="questionId" value="783" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -104,14 +112,6 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SubtreeOfAnotherTree.java" />
               <option name="questionId" value="572" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TheSkylineProblem.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TheSkylineProblem.java" />
-              <option name="questionId" value="218" />
             </LeetcodeEditor>
           </value>
         </entry>
