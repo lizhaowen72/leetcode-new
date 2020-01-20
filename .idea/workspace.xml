@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32aa0a8b-0def-491b-b184-9f1023bf9d21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RestoreIpAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RestoreIpAddresses.java" afterDir="false" />
     </list>
     <list id="960db9fa-e9f0-4bf5-84e7-62a6789aaa84" name="ignore" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,9 +104,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/leetcode/editor/tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordPattern">
-    <configuration name="CountPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.CountPrimes" />
+  <component name="RunManager" selected="Application.RestoreIpAddresses">
+    <configuration name="RestoreIpAddresses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.RestoreIpAddresses" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -116,21 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.IsomorphicStrings" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveInvalidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.RemoveInvalidParentheses" />
+    <configuration name="SumOfTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.SumOfTwoIntegers" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -144,6 +133,19 @@
     </configuration>
     <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ValidAnagram" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ValidPerfectSquare" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -170,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RestoreIpAddresses" />
+        <item itemvalue="Application.SumOfTwoIntegers" />
+        <item itemvalue="Application.ValidPerfectSquare" />
         <item itemvalue="Application.WordPattern" />
         <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.IsomorphicStrings" />
-        <item itemvalue="Application.CountPrimes" />
-        <item itemvalue="Application.RemoveInvalidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +261,7 @@
       <workItem from="1579224680125" duration="599000" />
       <workItem from="1579402508335" duration="8307000" />
       <workItem from="1579428768872" duration="15000" />
-      <workItem from="1579482475654" duration="1649000" />
+      <workItem from="1579482475654" duration="10214000" />
     </task>
     <task id="LOCAL-00001" summary="提交123">
       <created>1575302099626</created>
@@ -499,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579483779126</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="提交代码">
+      <created>1579484149357</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1579484149357</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,52 +611,52 @@
     </state>
     <state x="809" y="212" key="#xdebugger.evaluate/0.0.1920.1037@0.0.1920.1037" timestamp="1579416387915" />
     <state x="809" y="213" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1577548810994" />
-    <state x="560" y="112" width="1440" height="859" key="CommitChangelistDialog2" timestamp="1579428490853">
+    <state x="560" y="112" width="1440" height="859" key="CommitChangelistDialog2" timestamp="1579514631797">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="0" y="-1" width="1440" height="859" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578057809064" />
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1037@0.0.1920.1037" timestamp="1579428490853" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1037@0.0.1920.1037" timestamp="1579514631797" />
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577719997155" />
     <state x="694" y="255" key="FileChooserDialogImpl" timestamp="1577931219882">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
     <state x="694" y="255" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1577931219882" />
-    <state width="1872" height="395" key="GridCell.Tab.0.bottom" timestamp="1579428524544">
+    <state width="1872" height="395" key="GridCell.Tab.0.bottom" timestamp="1579512930185">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state width="1872" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1579428524544" />
+    <state width="1872" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1579512930185" />
     <state width="1877" height="509" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577720010379" />
-    <state width="1872" height="395" key="GridCell.Tab.0.center" timestamp="1579428524543">
+    <state width="1872" height="395" key="GridCell.Tab.0.center" timestamp="1579512930185">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state width="1872" height="395" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1579428524543" />
+    <state width="1872" height="395" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1579512930185" />
     <state width="1877" height="509" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577720010379" />
-    <state width="1872" height="395" key="GridCell.Tab.0.left" timestamp="1579428524543">
+    <state width="1872" height="395" key="GridCell.Tab.0.left" timestamp="1579512930185">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state width="1872" height="395" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1579428524543" />
+    <state width="1872" height="395" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1579512930185" />
     <state width="1877" height="509" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577720010379" />
-    <state width="1872" height="395" key="GridCell.Tab.0.right" timestamp="1579428524544">
+    <state width="1872" height="395" key="GridCell.Tab.0.right" timestamp="1579512930185">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state width="1872" height="395" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1579428524544" />
+    <state width="1872" height="395" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1579512930185" />
     <state width="1877" height="509" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577720010379" />
-    <state width="1872" height="395" key="GridCell.Tab.1.bottom" timestamp="1579428524544">
+    <state width="1872" height="395" key="GridCell.Tab.1.bottom" timestamp="1579512930186">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state width="1872" height="395" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1579428524544" />
-    <state width="1872" height="395" key="GridCell.Tab.1.center" timestamp="1579428524544">
+    <state width="1872" height="395" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1579512930186" />
+    <state width="1872" height="395" key="GridCell.Tab.1.center" timestamp="1579512930186">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state width="1872" height="395" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1579428524544" />
-    <state width="1872" height="395" key="GridCell.Tab.1.left" timestamp="1579428524544">
+    <state width="1872" height="395" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1579512930186" />
+    <state width="1872" height="395" key="GridCell.Tab.1.left" timestamp="1579512930185">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state width="1872" height="395" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1579428524544" />
-    <state width="1872" height="395" key="GridCell.Tab.1.right" timestamp="1579428524544">
+    <state width="1872" height="395" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1579512930185" />
+    <state width="1872" height="395" key="GridCell.Tab.1.right" timestamp="1579512930186">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state width="1872" height="395" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1579428524544" />
+    <state width="1872" height="395" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1579512930186" />
     <state x="540" y="262" key="IDE.errors.dialog" timestamp="1578362880168">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
@@ -687,6 +696,10 @@
     <state x="414" y="219" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578057811950" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1037@0.0.1920.1037" timestamp="1579428781332" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577720004931" />
+    <state x="726" y="193" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579511429472">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="726" y="193" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1037@0.0.1920.1037" timestamp="1579511429472" />
     <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1575989885268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1259,6 +1272,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveInvalidParentheses.java</url>
           <line>39</line>
           <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ValidPerfectSquare.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="246" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseInteger.java</url>
