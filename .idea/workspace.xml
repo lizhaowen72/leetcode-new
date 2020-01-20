@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32aa0a8b-0def-491b-b184-9f1023bf9d21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntersectionOfTwoArrays$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntersectionOfTwoArrays$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntersectionOfTwoArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntersectionOfTwoArrays.class" afterDir="false" />
     </list>
     <list id="960db9fa-e9f0-4bf5-84e7-62a6789aaa84" name="ignore" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
@@ -263,7 +259,7 @@
       <workItem from="1579224680125" duration="599000" />
       <workItem from="1579402508335" duration="8307000" />
       <workItem from="1579428768872" duration="15000" />
-      <workItem from="1579482475654" duration="1084000" />
+      <workItem from="1579482475654" duration="1649000" />
     </task>
     <task id="LOCAL-00001" summary="提交123">
       <created>1575302099626</created>
@@ -482,7 +478,28 @@
       <option name="project" value="LOCAL" />
       <updated>1579428490914</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="提交代码">
+      <created>1579483627367</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1579483627367</updated>
+    </task>
+    <task id="LOCAL-00033" summary="提交代码">
+      <created>1579483720406</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1579483720406</updated>
+    </task>
+    <task id="LOCAL-00034" summary="提交代码">
+      <created>1579483779126</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1579483779126</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,10 +691,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575989885268" />
-    <state x="654" y="310" width="758" height="433" key="git4idea.merge.GitPullDialog" timestamp="1579483761440">
+    <state x="654" y="310" width="758" height="433" key="git4idea.merge.GitPullDialog" timestamp="1579484124251">
       <screen x="0" y="0" width="1920" height="1037" />
     </state>
-    <state x="654" y="310" width="758" height="433" key="git4idea.merge.GitPullDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1579483761440" />
+    <state x="654" y="310" width="758" height="433" key="git4idea.merge.GitPullDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1579484124251" />
     <state x="654" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577805336435" />
   </component>
   <component name="XDebuggerManager">
