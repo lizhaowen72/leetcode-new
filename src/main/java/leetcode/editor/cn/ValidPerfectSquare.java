@@ -15,16 +15,28 @@ package leetcode.editor.cn;
 // 
 // Related Topics 数学 二分查找
 
-public class ValidPerfectSquare{
+public class ValidPerfectSquare {
     public static void main(String[] args) {
-         Solution solution = new ValidPerfectSquare().new Solution();
+        Solution solution = new ValidPerfectSquare().new Solution();
     }
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public boolean isPerfectSquare(int num) {
-        
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public boolean isPerfectSquare(int num) {
+            int start = 0, end = num;
+            while (start <= end) {
+                int mid = (start + end) >> 1;
+                if (mid * mid == num) {
+                    return true;
+                } else if (mid * mid < num) {
+                    start = mid + 1;
+                } else {
+                    end = mid;
+                }
+            }
+            return false;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
