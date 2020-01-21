@@ -1,0 +1,2305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32aa0a8b-0def-491b-b184-9f1023bf9d21" name="Default Changelist" comment="提交代码">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveKDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/leetcode.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/VersionControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/ConstructBinaryTreeFromInorderAndPostorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/ConstructBinaryTreeFromInorderAndPostorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/ConstructBinaryTreeFromInorderAndPostorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/ConstructBinaryTreeFromPreorderAndInorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/ConstructBinaryTreeFromPreorderAndInorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/ConstructBinaryTreeFromPreorderAndInorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/KDiffPairsInAnArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/KDiffPairsInAnArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/MajorityElementIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/MajorityElementIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/MoveZeroes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/MoveZeroes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/ShortestWordDistanceIi$WordDistance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/ShortestWordDistanceIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/SubarraySumEqualsK$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/array/SubarraySumEqualsK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/backtracking/AdditiveNumber$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/backtracking/AdditiveNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/BinaryTreeLevelOrderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/BinaryTreeLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/BinaryTreeLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/BinaryTreeLevelOrderTraversalIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/BinaryTreeLevelOrderTraversalIi$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/BinaryTreeLevelOrderTraversalIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/BinaryTreeZigzagLevelOrderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/BinaryTreeZigzagLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/BinaryTreeZigzagLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/FindLargestValueInEachTreeRow$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/FindLargestValueInEachTreeRow$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/FindLargestValueInEachTreeRow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/MinimumDepthOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/MinimumDepthOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/MinimumDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/SymmetricTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/SymmetricTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bfs/SymmetricTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/binarysearch/MedianOfTwoSortedArrays$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/binarysearch/MedianOfTwoSortedArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bit/SingleNumberIii$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/bit/SingleNumberIii.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddAndSearchWordDataStructureDesign$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddAndSearchWordDataStructureDesign$WordDictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddAndSearchWordDataStructureDesign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddBinary$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddBinary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddDigits$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddDigits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbersIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbersIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AdditiveNumber$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AdditiveNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AlienDictionary$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AlienDictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AverageOfLevelsInBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AverageOfLevelsInBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BackspaceStringCompare$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BackspaceStringCompare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BalancedBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BalancedBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BalancedBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BasicCalculator$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BasicCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BasicCalculatorIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BasicCalculatorIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BestTimeToBuyAndSellStock$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BestTimeToBuyAndSellStock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BestTimeToBuyAndSellStockIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BestTimeToBuyAndSellStockIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BestTimeToBuyAndSellStockWithCooldown$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BestTimeToBuyAndSellStockWithCooldown.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinarySearchTreeIterator$BSTIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinarySearchTreeIterator$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinarySearchTreeIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeInorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeInorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeInorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeLevelOrderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeLevelOrderTraversalIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeLevelOrderTraversalIi$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeLevelOrderTraversalIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeLongestConsecutiveSequence$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeLongestConsecutiveSequence$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeLongestConsecutiveSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeMaximumPathSum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeMaximumPathSum$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeMaximumPathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreePaths$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreePaths$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreePaths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreePostorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreePostorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreePostorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreePreorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreePreorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreePreorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeRightSideView$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeRightSideView$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeRightSideView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeTilt$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeTilt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeUpsideDown$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeUpsideDown$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeUpsideDown.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeZigzagLevelOrderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeZigzagLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BinaryTreeZigzagLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BitwiseOrsOfSubarrays$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BitwiseOrsOfSubarrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BoundaryOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BoundaryOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BullsAndCows$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/BullsAndCows.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ClimbingStairs$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ClimbingStairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CloneGraph$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CloneGraph$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CloneGraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ClosestBinarySearchTreeValue$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ClosestBinarySearchTreeValue$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ClosestBinarySearchTreeValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ClosestBinarySearchTreeValueIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ClosestBinarySearchTreeValueIi$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ClosestBinarySearchTreeValueIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CombinationSum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CombinationSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CombinationSumIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CombinationSumIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CombinationSumIii$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CombinationSumIii.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CombinationSumIv$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CombinationSumIv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Combinations$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Combinations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructBinaryTreeFromInorderAndPostorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructBinaryTreeFromInorderAndPostorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructBinaryTreeFromInorderAndPostorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructBinaryTreeFromPreorderAndInorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructBinaryTreeFromPreorderAndInorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructBinaryTreeFromPreorderAndInorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructBinaryTreeFromString$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructBinaryTreeFromString$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructBinaryTreeFromString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructStringFromBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConstructStringFromBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainerWithMostWater$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainerWithMostWater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainsDuplicate$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainsDuplicate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainsDuplicateIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainsDuplicateIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainsDuplicateIii$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainsDuplicateIii.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertBinarySearchTreeToSortedDoublyLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertBinarySearchTreeToSortedDoublyLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertBinarySearchTreeToSortedDoublyLinkedList$Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertBinarySearchTreeToSortedDoublyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertBstToGreaterTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertBstToGreaterTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertBstToGreaterTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertSortedArrayToBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertSortedArrayToBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertSortedArrayToBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertSortedListToBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertSortedListToBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ConvertSortedListToBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CopyListWithRandomPointer$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CopyListWithRandomPointer$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CopyListWithRandomPointer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountAndSay$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountAndSay$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountAndSay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountCompleteTreeNodes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountCompleteTreeNodes$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountCompleteTreeNodes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountPrimes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountPrimes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountUnivalueSubtrees$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountUnivalueSubtrees$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CountUnivalueSubtrees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CourseSchedule$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CourseSchedule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CourseScheduleIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CourseScheduleIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DecodeWays$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DecodeWays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DeleteNodeInABst$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DeleteNodeInABst$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DeleteNodeInABst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DeleteNodeInALinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DeleteNodeInALinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DiameterOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DiameterOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DiameterOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DifferentWaysToAddParentheses$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DifferentWaysToAddParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DivideTwoIntegers$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DivideTwoIntegers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/EvaluateReversePolishNotation$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/EvaluateReversePolishNotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ExcelSheetColumnNumber$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ExcelSheetColumnNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ExcelSheetColumnTitle$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ExcelSheetColumnTitle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FactorialTrailingZeroes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FactorialTrailingZeroes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindBottomLeftTreeValue$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindBottomLeftTreeValue$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindBottomLeftTreeValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindKPairsWithSmallestSums$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindKPairsWithSmallestSums.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindLargestValueInEachTreeRow$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindLargestValueInEachTreeRow$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindLargestValueInEachTreeRow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindLeavesOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindLeavesOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindLeavesOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindModeInBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindModeInBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindModeInBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindTheCelebrity$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindTheCelebrity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindTheTownJudge$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FindTheTownJudge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FirstBadVersion$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FirstBadVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FlattenBinaryTreeToLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FlattenBinaryTreeToLinkedList$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FlattenBinaryTreeToLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FlattenNestedListIterator$NestedIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FlattenNestedListIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FriendCircles$Disjoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FriendCircles$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FriendCircles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GasStation$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GasStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GenerateParentheses$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GenerateParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GraphValidTree$Solution$DisitsJoinSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GraphValidTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GraphValidTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GrayCode$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GrayCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GroupAnagrams$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GroupAnagrams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GroupShiftedStrings$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GroupShiftedStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/HouseRobberIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/HouseRobberIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/HouseRobberIii$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/HouseRobberIii$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/HouseRobberIii.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementQueueUsingStacks$MyQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementQueueUsingStacks$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementQueueUsingStacks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementStackUsingQueues$MyStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementStackUsingQueues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementStrstr$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementStrstr$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementStrstr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementTriePrefixTree$Trie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementTriePrefixTree$TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ImplementTriePrefixTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InorderSuccessorInBst$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InorderSuccessorInBst$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InorderSuccessorInBst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InsertInterval$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InsertInterval.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InsertIntoASortedCircularLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InsertIntoASortedCircularLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InsertionSortList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InsertionSortList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InsertionSortList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntersectionOfTwoArrays$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntersectionOfTwoArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntersectionOfTwoArraysIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntersectionOfTwoArraysIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntersectionOfTwoLinkedLists$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntersectionOfTwoLinkedLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InvertBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InvertBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/InvertBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IsomorphicStrings$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IsomorphicStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/JumpGame$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/JumpGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KClosestPointsToOrigin$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KClosestPointsToOrigin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KDiffPairsInAnArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KDiffPairsInAnArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KthLargestElementInAnArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KthLargestElementInAnArray$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KthLargestElementInAnArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KthSmallestElementInABst$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KthSmallestElementInABst$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KthSmallestElementInABst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KthSmallestElementInASortedMatrix$Solution$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KthSmallestElementInASortedMatrix$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/KthSmallestElementInASortedMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LargestBstSubtree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LargestBstSubtree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LargestBstSubtree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LargestNumber$Solution$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LargestNumber$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LargestNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LargestRectangleInHistogram$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LargestRectangleInHistogram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LengthOfLastWord$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LengthOfLastWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LetterCombinationsOfAPhoneNumber$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LetterCombinationsOfAPhoneNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LinkedListComponents$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LinkedListComponents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LinkedListCycle$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LinkedListCycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LinkedListCycleIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LinkedListCycleIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestCommonPrefix$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestCommonPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestConsecutiveSequence$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestConsecutiveSequence$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestConsecutiveSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestIncreasingSubsequence$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestIncreasingSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestPalindromicSubsequence$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestPalindromicSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestPalindromicSubstring$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestPalindromicSubstring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestSubstringWithAtLeastKRepeatingCharacters$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestSubstringWithAtLeastKRepeatingCharacters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestSubstringWithAtMostTwoDistinctCharacters$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestSubstringWithAtMostTwoDistinctCharacters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestUnivaluePath$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestUnivaluePath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestValidParentheses$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestValidParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LowestCommonAncestorOfABinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LowestCommonAncestorOfABinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LowestCommonAncestorOfABinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LowestCommonAncestorOfABinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LowestCommonAncestorOfABinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LowestCommonAncestorOfABinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LruCache$LRUCache$DLinkedNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LruCache$LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LruCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MajorityElement$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MajorityElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MajorityElementIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MajorityElementIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximalRectangle$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximalRectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximalSquare$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximalSquare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumDepthOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumDepthOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumDepthOfNAryTree$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumDepthOfNAryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumDepthOfNAryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumGap$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumGap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumProductSubarray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumProductSubarray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSizeSubarraySumEqualsK$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSizeSubarraySumEqualsK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSubarray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSubarray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSwap$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MaximumSwap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MeetingRooms$Solution$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MeetingRooms$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MeetingRooms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MeetingRoomsIi$Solution$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MeetingRoomsIi$Solution$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MeetingRoomsIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MeetingRoomsIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeIntervals$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeIntervals$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeIntervals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeKSortedLists$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeKSortedLists$Solution$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeKSortedLists$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeKSortedLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeSortedArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeTwoBinaryTrees$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeTwoBinaryTrees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeTwoSortedLists$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeTwoSortedLists$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MergeTwoSortedLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MiddleOfTheLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MiddleOfTheLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinStack$MinStack2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumAbsoluteDifferenceInBst$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumAbsoluteDifferenceInBst$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumAbsoluteDifferenceInBst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumDepthOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumDepthOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumDistanceBetweenBstNodes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumDistanceBetweenBstNodes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumHeightTrees$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumHeightTrees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumPathSum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumPathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumSizeSubarraySum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MinimumSizeSubarraySum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MissingNumber$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MissingNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MostFrequentSubtreeSum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MostFrequentSubtreeSum$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MostFrequentSubtreeSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MoveZeroes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MoveZeroes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MultiplyStrings$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MultiplyStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NAryTreePostorderTraversal$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NAryTreePostorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NAryTreePostorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NAryTreePreorderTraversal$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NAryTreePreorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NAryTreePreorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NestedInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NextGreaterNodeInLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NextGreaterNodeInLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NextPermutation$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NextPermutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NimGame$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NimGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfConnectedComponentsInAnUndirectedGraph$DisjoinSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfConnectedComponentsInAnUndirectedGraph$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfConnectedComponentsInAnUndirectedGraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfDistinctIslands$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfDistinctIslands.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfIslands$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfIslands.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/OddEvenLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/OddEvenLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PalindromeNumber$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PalindromeNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PalindromePartitioning$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PalindromePartitioning.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PalindromePartitioningIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PalindromePartitioningIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PalindromePermutationIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PalindromePermutationIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PartitionList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PartitionList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PascalsTriangle$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PascalsTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PascalsTriangleIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PascalsTriangleIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PathSum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PathSum$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PathSumIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PathSumIi$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PathSumIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PathSumIii$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PathSumIii$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PathSumIii.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PerfectSquares$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PerfectSquares.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PermutationSequence$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PermutationSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Permutations$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Permutations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PermutationsIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PermutationsIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PlusOne$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PlusOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PlusOneLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PlusOneLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PopulatingNextRightPointersInEachNode$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PopulatingNextRightPointersInEachNode$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PopulatingNextRightPointersInEachNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PopulatingNextRightPointersInEachNodeIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PopulatingNextRightPointersInEachNodeIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PowerOfFour$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PowerOfFour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PowerOfThree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PowerOfThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PowerOfTwo$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PowerOfTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PowxN$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/PowxN.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ProductOfArrayExceptSelf$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ProductOfArrayExceptSelf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReconstructItinerary$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReconstructItinerary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RecoverBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RecoverBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RecoverBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RectangleArea$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RectangleArea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Relation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicateLetters$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicateLetters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicatesFromSortedArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicatesFromSortedArrayIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicatesFromSortedArrayIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicatesFromSortedList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicatesFromSortedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicatesFromSortedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicatesFromSortedListIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveDuplicatesFromSortedListIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveInvalidParentheses$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveInvalidParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveLinkedListElements$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveLinkedListElements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveNthNodeFromEndOfList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveNthNodeFromEndOfList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReorderList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReorderList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RestoreIpAddresses$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RestoreIpAddresses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseInteger$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseLinkedListIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseLinkedListIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseNodesInKGroup$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseNodesInKGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseString$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseVowelsOfAString$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseVowelsOfAString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseWordsInAString$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ReverseWordsInAString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RotateImage$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RotateImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RotateList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RotateList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SameTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SameTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SameTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchA2dMatrix$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchA2dMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchA2dMatrixIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchA2dMatrixIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchInABinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchInABinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchInRotatedSortedArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchInRotatedSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchInRotatedSortedArrayIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchInRotatedSortedArrayIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchInsertPosition$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SearchInsertPosition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SecondMinimumNodeInABinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SecondMinimumNodeInABinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SerializeAndDeserializeBinaryTree$Codec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SerializeAndDeserializeBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SerializeAndDeserializeBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SerializeAndDeserializeBst$Codec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SerializeAndDeserializeBst$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SerializeAndDeserializeBst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SetMatrixZeroes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SetMatrixZeroes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ShortestWordDistanceIi$WordDistance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ShortestWordDistanceIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ShortestWordDistanceIii$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ShortestWordDistanceIii.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SimplifyPath$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SimplifyPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SingleNumber$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SingleNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SingleNumberIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SingleNumberIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SingleNumberIii$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SingleNumberIii.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SlidingWindowMaximum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SlidingWindowMaximum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SortColors$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SortColors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SortList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SortList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SpiralMatrix$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SpiralMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SpiralMatrixIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SpiralMatrixIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SplitLinkedListInParts$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SplitLinkedListInParts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Sqrtx$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Sqrtx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/StrobogrammaticNumberIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/StrobogrammaticNumberIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SubarraySumEqualsK$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SubarraySumEqualsK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Subsets$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Subsets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SubsetsIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SubsetsIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SubtreeOfAnotherTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SubtreeOfAnotherTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SumOfLeftLeaves$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SumOfLeftLeaves$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SumOfLeftLeaves.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SumOfTwoIntegers$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SumOfTwoIntegers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SumRootToLeafNumbers$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SumRootToLeafNumbers$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SumRootToLeafNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SummaryRanges$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SummaryRanges.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SurroundedRegions$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SurroundedRegions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SwapNodesInPairs$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SwapNodesInPairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SymmetricTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SymmetricTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SymmetricTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TheSkylineProblem$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TheSkylineProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ThreeSum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ThreeSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ThreeSumClosest$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ThreeSumClosest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TopKFrequentElements$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TopKFrequentElements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TopKFrequentWords$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TopKFrequentWords$TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TopKFrequentWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TrappingRainWater$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TrappingRainWater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Triangle$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TrimABinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TrimABinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSumIiInputArrayIsSorted$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSumIiInputArrayIsSorted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSumIvInputIsABst$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/TwoSumIvInputIsABst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UglyNumber$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UglyNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UglyNumberIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UglyNumberIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UniqueBinarySearchTrees$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UniqueBinarySearchTrees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UniqueBinarySearchTreesIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UniqueBinarySearchTreesIi$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UniqueBinarySearchTreesIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UniquePaths$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UniquePaths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UniquePathsIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/UniquePathsIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidAnagram$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidAnagram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidPalindrome$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidPalindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidParentheses$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidParenthesisString$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidParenthesisString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidPerfectSquare$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidPerfectSquare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidSudoku$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidSudoku.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidateBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidateBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidateBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidateIpAddress$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ValidateIpAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/VerifyPreorderSequenceInBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/VerifyPreorderSequenceInBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/VerifyPreorderSerializationOfABinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/VerifyPreorderSerializationOfABinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/WordLadder$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/WordLadder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/WordPattern$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/WordPattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/WordSearch$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/WordSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZigzagConversion$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZigzagConversion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/BalancedBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/BalancedBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/BalancedBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConstructBinaryTreeFromInorderAndPostorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConstructBinaryTreeFromInorderAndPostorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConstructBinaryTreeFromInorderAndPostorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConstructBinaryTreeFromPreorderAndInorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConstructBinaryTreeFromPreorderAndInorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConstructBinaryTreeFromPreorderAndInorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConvertSortedArrayToBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConvertSortedArrayToBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConvertSortedArrayToBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConvertSortedListToBinarySearchTree$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConvertSortedListToBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConvertSortedListToBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ConvertSortedListToBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/DiameterOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/DiameterOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/DiameterOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/FindBottomLeftTreeValue$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/FindBottomLeftTreeValue$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/FindBottomLeftTreeValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/FindLargestValueInEachTreeRow$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/FindLargestValueInEachTreeRow$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/FindLargestValueInEachTreeRow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/FlattenBinaryTreeToLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/FlattenBinaryTreeToLinkedList$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/FlattenBinaryTreeToLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/MaximumDepthOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/MaximumDepthOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/MaximumDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/MinimumDepthOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/MinimumDepthOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/MinimumDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PathSum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PathSum$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PathSumIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PathSumIi$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PathSumIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PopulatingNextRightPointersInEachNode$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PopulatingNextRightPointersInEachNode$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PopulatingNextRightPointersInEachNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PopulatingNextRightPointersInEachNodeIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/PopulatingNextRightPointersInEachNodeIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/RecoverBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/RecoverBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/RecoverBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/SymmetricTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/SymmetricTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/SymmetricTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ValidateBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ValidateBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dfs/ValidateBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/divide/DifferentWaysToAddParentheses$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/divide/DifferentWaysToAddParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/divide/MedianOfTwoSortedArrays$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/divide/MedianOfTwoSortedArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/doublepointer/BackspaceStringCompare$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/doublepointer/BackspaceStringCompare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/doublepointer/KDiffPairsInAnArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/doublepointer/KDiffPairsInAnArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/doublepointer/MoveZeroes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/doublepointer/MoveZeroes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/doublepointer/ReverseString$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/doublepointer/ReverseString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/doublepointer/ReverseVowelsOfAString$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/doublepointer/ReverseVowelsOfAString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dp/PerfectSquares$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dp/PerfectSquares.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dp/UniqueBinarySearchTrees$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dp/UniqueBinarySearchTrees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dp/UniqueBinarySearchTreesIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dp/UniqueBinarySearchTreesIi$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/dp/UniqueBinarySearchTreesIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/hashmap/GroupShiftedStrings$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/hashmap/GroupShiftedStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/hashmap/LongestSubstringWithoutRepeatingCharacters$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/hashmap/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/hashmap/MaximumSizeSubarraySumEqualsK$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/hashmap/MaximumSizeSubarraySumEqualsK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/hashmap/ShortestWordDistanceIi$WordDistance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/hashmap/ShortestWordDistanceIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/hashmap/SubarraySumEqualsK$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/hashmap/SubarraySumEqualsK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/linkedlist/AddTwoNumbers$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/linkedlist/AddTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/linkedlist/InsertionSortList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/linkedlist/InsertionSortList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/linkedlist/InsertionSortList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/linkedlist/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/linkedlist/SortList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/linkedlist/SortList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/linkedlist/SortList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/queue/FindBottomLeftTreeValue$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/queue/FindBottomLeftTreeValue$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/queue/FindBottomLeftTreeValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/queue/ImplementQueueUsingStacks$MyQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/queue/ImplementQueueUsingStacks$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/queue/ImplementQueueUsingStacks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/queue/ImplementStackUsingQueues$MyStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/queue/ImplementStackUsingQueues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/ContainsDuplicateIii$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/ContainsDuplicateIii.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/InsertInterval$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/InsertInterval.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/InsertionSortList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/InsertionSortList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/InsertionSortList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/MergeIntervals$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/MergeIntervals$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/MergeIntervals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/SortColors$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/SortColors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/SortList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/SortList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/sort/SortList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BackspaceStringCompare$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BackspaceStringCompare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BasicCalculator$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BasicCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinarySearchTreeIterator$BSTIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinarySearchTreeIterator$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinarySearchTreeIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeInorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeInorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeInorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeLevelOrderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeLevelOrderTraversalIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeLevelOrderTraversalIi$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeLevelOrderTraversalIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeZigzagLevelOrderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeZigzagLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/BinaryTreeZigzagLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/EvaluateReversePolishNotation$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/EvaluateReversePolishNotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/FlattenNestedListIterator$NestedIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/FlattenNestedListIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/ImplementQueueUsingStacks$MyQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/ImplementQueueUsingStacks$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/ImplementQueueUsingStacks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/ImplementStackUsingQueues$MyStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/ImplementStackUsingQueues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/MaximalRectangle$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/MaximalRectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/MinStack$MinStack2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/RemoveDuplicateLetters$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/RemoveDuplicateLetters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/SimplifyPath$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/SimplifyPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/TrappingRainWater$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/TrappingRainWater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/ValidParentheses$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/ValidParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/VerifyPreorderSequenceInBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/VerifyPreorderSequenceInBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/VerifyPreorderSerializationOfABinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/stack/VerifyPreorderSerializationOfABinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/string/AddBinary$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/string/AddBinary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/string/GroupShiftedStrings$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/string/GroupShiftedStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/AverageOfLevelsInBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/AverageOfLevelsInBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/AverageOfLevelsInBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BalancedBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BalancedBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BalancedBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinarySearchTreeIterator$BSTIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinarySearchTreeIterator$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinarySearchTreeIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeInorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeInorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeInorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeLevelOrderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeLevelOrderTraversalIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeLevelOrderTraversalIi$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeLevelOrderTraversalIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeLongestConsecutiveSequence$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeLongestConsecutiveSequence$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeLongestConsecutiveSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeMaximumPathSum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeMaximumPathSum$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeMaximumPathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreePaths$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreePaths$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreePaths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreePostorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreePostorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreePostorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreePreorderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreePreorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreePreorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeRightSideView$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeRightSideView$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeRightSideView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeTilt$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeTilt$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeTilt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeUpsideDown$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeUpsideDown$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeUpsideDown.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeZigzagLevelOrderTraversal$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeZigzagLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/BinaryTreeZigzagLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/ConstructStringFromBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/ConstructStringFromBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/ConstructStringFromBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/ConvertSortedArrayToBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/ConvertSortedArrayToBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/ConvertSortedArrayToBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/ConvertSortedListToBinarySearchTree$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/ConvertSortedListToBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/ConvertSortedListToBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/ConvertSortedListToBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/CountCompleteTreeNodes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/CountCompleteTreeNodes$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/CountCompleteTreeNodes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/CountUnivalueSubtrees$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/CountUnivalueSubtrees$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/CountUnivalueSubtrees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/DiameterOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/DiameterOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/DiameterOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FindBottomLeftTreeValue$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FindBottomLeftTreeValue$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FindBottomLeftTreeValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FindLargestValueInEachTreeRow$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FindLargestValueInEachTreeRow$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FindLargestValueInEachTreeRow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FindLeavesOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FindLeavesOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FindLeavesOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FlattenBinaryTreeToLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FlattenBinaryTreeToLinkedList$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/FlattenBinaryTreeToLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/HouseRobberIii$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/HouseRobberIii$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/HouseRobberIii.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/InorderSuccessorInBst$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/InorderSuccessorInBst$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/InorderSuccessorInBst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/InvertBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/InvertBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/InvertBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/KthSmallestElementInABst$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/KthSmallestElementInABst$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/KthSmallestElementInABst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/LargestBstSubtree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/LargestBstSubtree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/LargestBstSubtree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/LowestCommonAncestorOfABinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/LowestCommonAncestorOfABinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/LowestCommonAncestorOfABinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/LowestCommonAncestorOfABinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/LowestCommonAncestorOfABinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/LowestCommonAncestorOfABinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/MergeTwoBinaryTrees$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/MergeTwoBinaryTrees$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/MergeTwoBinaryTrees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/MinimumDepthOfBinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/MinimumDepthOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/MinimumDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PathSum$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PathSum$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PathSumIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PathSumIi$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PathSumIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PopulatingNextRightPointersInEachNode$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PopulatingNextRightPointersInEachNode$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PopulatingNextRightPointersInEachNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PopulatingNextRightPointersInEachNodeIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/PopulatingNextRightPointersInEachNodeIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/RecoverBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/RecoverBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/RecoverBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SecondMinimumNodeInABinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SecondMinimumNodeInABinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SecondMinimumNodeInABinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SerializeAndDeserializeBinaryTree$Codec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SerializeAndDeserializeBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SerializeAndDeserializeBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SubtreeOfAnotherTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SubtreeOfAnotherTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SubtreeOfAnotherTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SumOfLeftLeaves$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SumOfLeftLeaves$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SumOfLeftLeaves.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SumRootToLeafNumbers$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SumRootToLeafNumbers$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SumRootToLeafNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SymmetricTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SymmetricTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/SymmetricTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/VerifyPreorderSequenceInBinarySearchTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/VerifyPreorderSequenceInBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/VerifyPreorderSerializationOfABinaryTree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/tree/VerifyPreorderSerializationOfABinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/.ssh.rar" beforeDir="false" />
+    </list>
+    <list id="960db9fa-e9f0-4bf5-84e7-62a6789aaa84" name="ignore" comment="ignore" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="leetcode" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\lmm\leetcode-new\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="nonRecursive" value="true" />
+        <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U9pu8DuW1hLflS6FepOwXnZPOJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/dp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.editor.doublepointer" />
+      <recent name="leetcode.editor.stack" />
+      <recent name="leetcode.editor.array" />
+      <recent name="leetcode.editor.hashmap" />
+      <recent name="leetcode.editor.binarysearch" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/editor/dp" />
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/editor/array" />
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/editor/dfs" />
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/editor/bfs" />
+      <recent name="$PROJECT_DIR$/src/main/java/leetcode/editor/tree" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BullsAndCows">
+    <configuration name="BullsAndCows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.BullsAndCows" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainsDuplicateIi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ContainsDuplicateIi" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.IntersectionOfTwoArrays" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KDiffPairsInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.KDiffPairsInAnArray" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.MissingNumber" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BullsAndCows" />
+        <item itemvalue="Application.MissingNumber" />
+        <item itemvalue="Application.ContainsDuplicateIi" />
+        <item itemvalue="Application.KDiffPairsInAnArray" />
+        <item itemvalue="Application.IntersectionOfTwoArrays" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_ANONYMOUS,SHOW_INTERFACES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32aa0a8b-0def-491b-b184-9f1023bf9d21" name="Default Changelist" comment="" />
+      <changelist id="960db9fa-e9f0-4bf5-84e7-62a6789aaa84" name="ignore" comment="" />
+      <created>1574778884397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574778884397</updated>
+      <workItem from="1574778888199" duration="869000" />
+      <workItem from="1574867692814" duration="1635000" />
+      <workItem from="1575122613341" duration="599000" />
+      <workItem from="1575181125606" duration="15502000" />
+      <workItem from="1575295693916" duration="5502000" />
+      <workItem from="1575382005631" duration="6341000" />
+      <workItem from="1575468455688" duration="5917000" />
+      <workItem from="1575556588313" duration="4807000" />
+      <workItem from="1575633746882" duration="3429000" />
+      <workItem from="1575731819072" duration="1267000" />
+      <workItem from="1575766979059" duration="27395000" />
+      <workItem from="1575900393076" duration="433000" />
+      <workItem from="1575901139710" duration="5459000" />
+      <workItem from="1575986145798" duration="3834000" />
+      <workItem from="1576073267114" duration="1483000" />
+      <workItem from="1576074795849" duration="3990000" />
+      <workItem from="1576159511706" duration="7275000" />
+      <workItem from="1576243972670" duration="599000" />
+      <workItem from="1576329014217" duration="1266000" />
+      <workItem from="1576377962793" duration="11430000" />
+      <workItem from="1576404621455" duration="9226000" />
+      <workItem from="1576501597141" duration="280000" />
+      <workItem from="1576502186480" duration="10364000" />
+      <workItem from="1576589008228" duration="7552000" />
+      <workItem from="1576673691732" duration="2547000" />
+      <workItem from="1576807629516" duration="6290000" />
+      <workItem from="1576842435402" duration="20391000" />
+      <workItem from="1576977898826" duration="219000" />
+      <workItem from="1576978181700" duration="19706000" />
+      <workItem from="1577024609164" duration="55000" />
+      <workItem from="1577104105642" duration="6709000" />
+      <workItem from="1577196360706" duration="5208000" />
+      <workItem from="1577275349792" duration="595000" />
+      <workItem from="1577275988235" duration="5749000" />
+      <workItem from="1577363958780" duration="1339000" />
+      <workItem from="1577370903752" duration="6171000" />
+      <workItem from="1577456774949" duration="4464000" />
+      <workItem from="1577493218883" duration="600000" />
+      <workItem from="1577542397379" duration="7248000" />
+      <workItem from="1577584319408" duration="29243000" />
+      <workItem from="1578043430202" duration="880000" />
+      <workItem from="1578044318169" duration="2599000" />
+      <workItem from="1578272826789" duration="6873000" />
+      <workItem from="1578294437876" duration="12459000" />
+      <workItem from="1578361132734" duration="10630000" />
+      <workItem from="1578491383164" duration="830000" />
+      <workItem from="1578575032274" duration="5344000" />
+      <workItem from="1578709959524" duration="2927000" />
+      <workItem from="1578794584687" duration="5509000" />
+      <workItem from="1579012569869" duration="82000" />
+      <workItem from="1579096870154" duration="925000" />
+      <workItem from="1579182531036" duration="598000" />
+      <workItem from="1579347627001" duration="4241000" />
+      <workItem from="1579442416287" duration="635000" />
+      <workItem from="1579443211542" duration="1439000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交123">
+      <created>1575302099626</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575302099626</updated>
+    </task>
+    <task id="LOCAL-00002" summary="合并区间 颜色排序">
+      <created>1575473742132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575473742132</updated>
+    </task>
+    <task id="LOCAL-00003" summary="最大矩形">
+      <created>1575561382097</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575561382097</updated>
+    </task>
+    <task id="LOCAL-00004" summary="12月8号晚上提交代码">
+      <created>1575815975807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575815975807</updated>
+    </task>
+    <task id="LOCAL-00005" summary="12月8号晚上提交代码">
+      <created>1575818008927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575818008927</updated>
+    </task>
+    <task id="LOCAL-00006" summary="12月11号晚上提交代码">
+      <created>1576078147145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576078147145</updated>
+    </task>
+    <task id="LOCAL-00007" summary="12月12号晚上提交代码">
+      <created>1576167262523</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576167262523</updated>
+    </task>
+    <task id="LOCAL-00008" summary="12月12号晚上提交代码">
+      <created>1576167327754</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576167327754</updated>
+    </task>
+    <task id="LOCAL-00009" summary="12月15号晚上提交代码">
+      <created>1576425293462</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576425293462</updated>
+    </task>
+    <task id="LOCAL-00010" summary="12月17号凌晨提交代码">
+      <created>1576512959979</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576512959979</updated>
+    </task>
+    <task id="LOCAL-00011" summary="12月17号晚上提交代码">
+      <created>1576598040697</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576598040697</updated>
+    </task>
+    <task id="LOCAL-00012" summary="12月17号晚上提交代码">
+      <created>1576598079338</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576598079338</updated>
+    </task>
+    <task id="LOCAL-00013" summary="12月17号晚上提交代码">
+      <created>1576807783901</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576807783901</updated>
+    </task>
+    <task id="LOCAL-00014" summary="12月20号中午提交代码">
+      <created>1576815019061</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576815019061</updated>
+    </task>
+    <task id="LOCAL-00015" summary="12月20号晚上提交代码">
+      <created>1576855215343</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576855215343</updated>
+    </task>
+    <task id="LOCAL-00016" summary="12月22号晚上提交代码">
+      <created>1577024652413</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577024652413</updated>
+    </task>
+    <task id="LOCAL-00017" summary="12月17号晚上提交代码">
+      <created>1577107446561</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1577107446561</updated>
+    </task>
+    <task id="LOCAL-00018" summary="12月23号晚上提交代码">
+      <created>1577115328354</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1577115328354</updated>
+    </task>
+    <task id="LOCAL-00019" summary="12月24号晚上提交代码">
+      <created>1577202225228</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1577202225228</updated>
+    </task>
+    <task id="LOCAL-00020" summary="12月17号晚上提交代码">
+      <created>1577288092024</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1577288092024</updated>
+    </task>
+    <task id="LOCAL-00021" summary="12月27号凌晨提交代码">
+      <created>1577376961210</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1577376961210</updated>
+    </task>
+    <task id="LOCAL-00022" summary="12月28号晚上提交代码">
+      <created>1577462488744</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1577462488744</updated>
+    </task>
+    <task id="LOCAL-00023" summary="12月29号晚上提交代码">
+      <created>1577634638062</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1577634638062</updated>
+    </task>
+    <task id="LOCAL-00024" summary="12月17号晚上提交代码">
+      <created>1577720000177</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1577720000177</updated>
+    </task>
+    <task id="LOCAL-00025" summary="提交代码">
+      <created>1577973140066</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1577973140066</updated>
+    </task>
+    <task id="LOCAL-00026" summary="1.6提交代码">
+      <created>1578304862766</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1578304862766</updated>
+    </task>
+    <task id="LOCAL-00027" summary="1.6提交代码">
+      <created>1578403569675</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1578403569675</updated>
+    </task>
+    <task id="LOCAL-00028" summary="提交代码">
+      <created>1578580288569</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1578580288569</updated>
+    </task>
+    <task id="LOCAL-00029" summary="提交代码">
+      <created>1578581102281</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1578581102281</updated>
+    </task>
+    <task id="LOCAL-00030" summary="提交代码">
+      <created>1578801415376</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1578801415376</updated>
+    </task>
+    <task id="LOCAL-00031" summary="提交代码">
+      <created>1579356575114</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1579356575114</updated>
+    </task>
+    <task id="LOCAL-00032" summary="提交代码">
+      <created>1579443514906</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1579443514907</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/lmm/leetcode-new/src/main/java/leetcode" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交123" />
+    <MESSAGE value="合并区间 颜色排序" />
+    <MESSAGE value="最大矩形" />
+    <MESSAGE value="12月8号晚上提交代码" />
+    <MESSAGE value="12月11号晚上提交代码" />
+    <MESSAGE value="12月12号晚上提交代码" />
+    <MESSAGE value="12月15号晚上提交代码" />
+    <MESSAGE value="12月17号凌晨提交代码" />
+    <MESSAGE value="12月20号中午提交代码" />
+    <MESSAGE value="12月20号晚上提交代码" />
+    <MESSAGE value="12月22号晚上提交代码" />
+    <MESSAGE value="12月23号晚上提交代码" />
+    <MESSAGE value="12月24号晚上提交代码" />
+    <MESSAGE value="12月27号凌晨提交代码" />
+    <MESSAGE value="12月28号晚上提交代码" />
+    <MESSAGE value="12月29号晚上提交代码" />
+    <MESSAGE value="12月17号晚上提交代码" />
+    <MESSAGE value="1.6提交代码" />
+    <MESSAGE value="提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="177" width="802" height="689" key="#Notifications" timestamp="1578044251095">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="552" y="177" width="802" height="689" key="#Notifications/0.0.1920.1037@0.0.1920.1037" timestamp="1578044251095" />
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1575988648520" />
+    <state x="550" y="174" key="#Project_Structure" timestamp="1579571006793">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="550" y="174" key="#Project_Structure/0.0.1920.1037@0.0.1920.1037" timestamp="1579571006793" />
+    <state x="697" y="270" width="526" height="496" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578382298066">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="697" y="270" width="526" height="496" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578382298066" />
+    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577376681503">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577376681503" />
+    <state x="955" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578382165806">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="955" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1037@0.0.1920.1037" timestamp="1578382165806" />
+    <state x="955" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577719370472" />
+    <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579012610302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579012610302" />
+    <state x="647" y="237" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578361118621">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="647" y="237" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578361118621" />
+    <state x="809" y="213" key="#xdebugger.evaluate" timestamp="1579356189438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="809" y="213" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1579356189438" />
+    <state x="0" y="0" width="1920" height="1037" key="CommitChangelistDialog2" timestamp="1579596220587">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="0" y="-1" width="1440" height="859" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578057809064" />
+    <state x="0" y="0" width="1920" height="1037" key="CommitChangelistDialog2/0.0.1920.1037@0.0.1920.1037" timestamp="1579596220587" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579443512585" />
+    <state x="362" y="90" key="DiffContextDialog" timestamp="1579595875332">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="362" y="90" key="DiffContextDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1579595875332" />
+    <state x="694" y="255" key="FileChooserDialogImpl" timestamp="1577931219882">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="694" y="255" key="FileChooserDialogImpl/0.0.1920.1037@0.0.1920.1037" timestamp="1577931219882" />
+    <state width="938" height="294" key="GridCell.Tab.0.bottom" timestamp="1579356609334">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1872" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353987" />
+    <state width="938" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579356609334" />
+    <state width="938" height="294" key="GridCell.Tab.0.center" timestamp="1579356609333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1872" height="254" key="GridCell.Tab.0.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353987" />
+    <state width="938" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579356609333" />
+    <state width="938" height="294" key="GridCell.Tab.0.left" timestamp="1579356609333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1872" height="254" key="GridCell.Tab.0.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353987" />
+    <state width="938" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579356609333" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1579444660704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1872" height="254" key="GridCell.Tab.0.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353987" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579444660704" />
+    <state width="1872" height="280" key="GridCell.Tab.1.bottom" timestamp="1578392353985">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="280" key="GridCell.Tab.1.bottom/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353985" />
+    <state width="1872" height="280" key="GridCell.Tab.1.center" timestamp="1578392353985">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="280" key="GridCell.Tab.1.center/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353985" />
+    <state width="1872" height="280" key="GridCell.Tab.1.left" timestamp="1578392353985">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="280" key="GridCell.Tab.1.left/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353985" />
+    <state width="1872" height="280" key="GridCell.Tab.1.right" timestamp="1578392353985">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state width="1872" height="280" key="GridCell.Tab.1.right/0.0.1920.1037@0.0.1920.1037" timestamp="1578392353985" />
+    <state x="540" y="262" key="IDE.errors.dialog" timestamp="1578362880168">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1037@0.0.1920.1037" timestamp="1578362880168" />
+    <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577288156678" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1577107509984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577107509984" />
+    <state x="669" y="235" key="MultipleFileMergeDialog" timestamp="1579443547481">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579443547481" />
+    <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1577931504495">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1037@0.0.1920.1037" timestamp="1577931504495" />
+    <state x="600" y="218" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577714460659" />
+    <state x="461" y="162" width="1278" height="742" key="SettingsEditor" timestamp="1579443186762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="641" y="1" width="1278" height="742" key="SettingsEditor/0.0.1920.1037@0.0.1920.1037" timestamp="1578381293240" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579443186762" />
+    <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1577623401733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1577623401733" />
+    <state x="790" y="389" key="VCS.EditChangelistDialog" timestamp="1575986989997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575986989997" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1579571019286">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="414" y="219" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578057811950" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1037@0.0.1920.1037" timestamp="1579571019286" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579443561781" />
+    <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1575989885268">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575989885268" />
+    <state x="654" y="310" width="758" height="433" key="git4idea.merge.GitPullDialog" timestamp="1579571035267">
+      <screen x="0" y="0" width="1920" height="1037" />
+    </state>
+    <state x="654" y="310" width="758" height="433" key="git4idea.merge.GitPullDialog/0.0.1920.1037@0.0.1920.1037" timestamp="1579571035267" />
+    <state x="654" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579443365071" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BinaryTreeLevelOrderTraversalIi.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BalancedBinaryTree.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MinimumDepthOfBinaryTree.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FlattenBinaryTreeToLinkedList.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ImplementTriePrefixTree.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ImplementTriePrefixTree.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ImplementTriePrefixTree.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TwoSum.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TwoSum.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MergeKSortedLists.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CountCompleteTreeNodes.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CountCompleteTreeNodes.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CountCompleteTreeNodes.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/InvertBinaryTree.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SerializeAndDeserializeBinaryTree.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SerializeAndDeserializeBinaryTree.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SerializeAndDeserializeBinaryTree.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SerializeAndDeserializeBinaryTree.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SerializeAndDeserializeBinaryTree.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SerializeAndDeserializeBinaryTree.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MergeIntervals.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MergeIntervals.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/InsertInterval.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/InsertionSortList.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaximalRectangle.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaximalRectangle.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PalindromePartitioningIi.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveDuplicateLetters.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KthLargestElementInAnArray.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KthLargestElementInAnArray.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PalindromeNumber.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestCommonPrefix.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveDuplicatesFromSortedArray.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveElement.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ImplementStrstr.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PascalsTriangle.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PascalsTriangleIi.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BestTimeToBuyAndSellStock.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FactorialTrailingZeroes.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseLinkedList.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CombineTwoTables.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/VerifyPreorderSerializationOfABinaryTree.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ConstructBinaryTreeFromInorderAndPostorderTraversal.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ConstructBinaryTreeFromInorderAndPostorderTraversal.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/AddTwoNumbers.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/AddTwoNumbers.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestPalindromicSubstring.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ZigzagConversion.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ContainerWithMostWater.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ContainerWithMostWater.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LetterCombinationsOfAPhoneNumber.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveNthNodeFromEndOfList.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/DivideTwoIntegers.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/Permutations.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PermutationsIi.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SearchInRotatedSortedArray.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MultiplyStrings.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MultiplyStrings.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MultiplyStrings.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SpiralMatrix.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/JumpGame.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RotateList.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SimplifyPath.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SetMatrixZeroes.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveDuplicatesFromSortedArrayIi.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PartitionList.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/DecodeWays.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SearchInRotatedSortedArrayIi.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseLinkedListIi.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ConvertSortedListToBinarySearchTree.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PalindromePartitioning.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CloneGraph.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CloneGraph.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SlidingWindowMaximum.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SlidingWindowMaximum.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CourseSchedule.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CourseSchedule.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseWordsInAString.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CourseScheduleIi.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/GasStation.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ContainsDuplicateIii.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/HouseRobberIi.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/HouseRobberIi.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestIncreasingSubsequence.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MaximumSizeSubarraySumEqualsK.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TopKFrequentElements.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TopKFrequentElements.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BasicCalculatorIi.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SummaryRanges.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SummaryRanges.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/GraphValidTree.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/GraphValidTree.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BinaryTreeLongestConsecutiveSequence.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BinaryTreeLongestConsecutiveSequence.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ClosestBinarySearchTreeValueIi.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/AdditiveNumber.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BestTimeToBuyAndSellStockWithCooldown.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SerializeAndDeserializeBst.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SubarraySumEqualsK.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CombinationSumIv.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CombinationSumIv.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CombinationSumIv.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KthSmallestElementInASortedMatrix.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KthSmallestElementInASortedMatrix.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KthSmallestElementInASortedMatrix.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/DiameterOfBinaryTree.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/SecondMinimumNodeInABinaryTree.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestUnivaluePath.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/TheSkylineProblem.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseString.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/IntersectionOfTwoArrays.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/KDiffPairsInAnArray.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ContainsDuplicateIi.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MissingNumber.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BullsAndCows.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseInteger.java</url>
+          <line>40</line>
+          <properties class="leetcode.editor.cn.ReverseInteger.Solution" method="reverse">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$DivideTwoIntegers.ic" NAME="DivideTwoIntegers Coverage Results" MODIFIED="1576415651252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.editor.cn.*</FILTER>
+    </SUITE>
+  </component>
+</project>
