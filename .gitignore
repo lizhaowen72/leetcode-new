@@ -1,2 +1,15 @@
-/target/
-/target/
+**/*.iml
+**/.idea
+**/target
+**/logs
+leetcode/.settings/org.eclipse.jdt.core.prefs
+leetcode/.settings/org.eclipse.core.resources.prefs
+leetcode/.settings/org.eclipse.m2e.core.prefs
+leetcode/.factorypath
+leetcode/.classpath
+.vscode/launch.json
+.settings/org.eclipse.core.resources.prefs
+.project
+leetcode/.project
+.settings/org.eclipse.m2e.core.prefs
+
