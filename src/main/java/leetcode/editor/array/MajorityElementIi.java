@@ -1,4 +1,4 @@
-package leetcode.editor.cn;
+package leetcode.editor.array;
 
 import java.util.*;
 
