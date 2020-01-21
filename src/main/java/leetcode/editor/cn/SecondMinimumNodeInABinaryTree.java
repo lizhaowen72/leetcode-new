@@ -79,6 +79,15 @@ public class SecondMinimumNodeInABinaryTree {
             return left != -1 && right != -1 ? Math.min(left, right) : left != -1 ? left : right;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
 
+    //leetcode submit region end(Prohibit modification and deletion)
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        public TreeNode(int val) {
+            this.val = val;
+        }
+    }
 }
