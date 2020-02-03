@@ -24,18 +24,50 @@ package leetcode.editor.cn;
 //解释: 另一种有效的行程是 ["JFK","SFO","ATL","JFK","ATL","SFO"]。但是它自然排序更大更靠后。 
 // Related Topics 深度优先搜索 图
 
-import java.util.List;
+import java.util.*;
 
-public class ReconstructItinerary {
+class ReconstructItinerary {
     public static void main(String[] args) {
         Solution solution = new ReconstructItinerary().new Solution();
+        List<List<String>> tickets = new ArrayList<>();
+        List<String> ticket1 = new ArrayList<>();
+        List<String> ticket2 = new ArrayList<>();
+        List<String> ticket3 = new ArrayList<>();
+        List<String> ticket4 = new ArrayList<>();
+        ticket1.add("MUC");
+        ticket1.add("LHR");
+        ticket2.add("JFK");
+        ticket2.add("MUC");
+        ticket3.add("SFO");
+        ticket3.add("SJC");
+        ticket4.add("LHR");
+        ticket4.add("SFO");
+        tickets.add(ticket1);
+        tickets.add(ticket2);
+        tickets.add(ticket3);
+        tickets.add(ticket4);
+        solution.findItinerary(tickets);
     }
-
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        Map<String, PriorityQueue<String>> targets = new HashMap<>();
+        List<String> routes = new ArrayList<>();
+
         public List<String> findItinerary(List<List<String>> tickets) {
-            return null;
+            for (List<String> ticket : tickets) {
+                PriorityQueue<String> queue = targets.computeIfAbsent(ticket.get(0), k -> new PriorityQueue<String>());
+                queue.add(ticket.get(1));
+            }
+            visit("JFK");
+            return routes;
+        }
+
+        private void visit(String airport) {
+            while (targets.containsKey(airport) && !targets.get(airport).isEmpty()) {
+                visit(targets.get(airport).poll());
+            }
+            routes.add(0, airport);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
