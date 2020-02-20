@@ -1,3 +1,4 @@
+package leetcode.editor.cn;
 //给定一个二叉树，返回其按层次遍历的节点值。 （即逐层地，从左到右访问所有节点）。 
 //
 // 例如: 
@@ -20,13 +21,11 @@
 // 
 // Related Topics 树 广度优先搜索
 
-package leetcode.editor.cn;
-
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class BinaryTreeLevelOrderTraversal {
+class BinaryTreeLevelOrderTraversal{
     public static void main(String[] args) {
         Solution solution = new BinaryTreeLevelOrderTraversal().new Solution();
         TreeNode node3 = new TreeNode(3);

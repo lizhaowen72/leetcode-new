@@ -1,8 +1,4 @@
 package leetcode.editor.cn;
-
-import java.util.HashMap;
-import java.util.Map;
-
 //根据一棵树的中序遍历与后序遍历构造二叉树。 
 //
 // 注意: 
@@ -22,7 +18,11 @@ import java.util.Map;
 //   15   7
 // 
 // Related Topics 树 深度优先搜索 数组
-public class ConstructBinaryTreeFromInorderAndPostorderTraversal {
+
+import java.util.HashMap;
+import java.util.Map;
+
+class ConstructBinaryTreeFromInorderAndPostorderTraversal {
     public static void main(String[] args) {
         Solution solution = new ConstructBinaryTreeFromInorderAndPostorderTraversal().new Solution();
         int[] inorder = {9, 3, 15, 20, 7};

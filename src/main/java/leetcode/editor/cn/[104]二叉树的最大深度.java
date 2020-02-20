@@ -1,8 +1,5 @@
 package leetcode.editor.cn;
-
-import java.util.Stack;
-
-//给定一个二叉树，找出其最大深度。
+//给定一个二叉树，找出其最大深度。 
 //
 // 二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。 
 //
@@ -19,13 +16,14 @@ import java.util.Stack;
 //
 // 返回它的最大深度 3 。 
 // Related Topics 树 深度优先搜索
-public class MaximumDepthOfBinaryTree {
+
+import java.util.Stack;
+
+class MaximumDepthOfBinaryTree {
     public static void main(String[] args) {
         Solution solution = new MaximumDepthOfBinaryTree().new Solution();
     }
-
-
-//leetcode submit region begin(Prohibit modification and deletion)
+    //leetcode submit region begin(Prohibit modification and deletion)
 
     /**
      * Definition for a binary tree node.

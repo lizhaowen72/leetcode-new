@@ -18,11 +18,7 @@ package leetcode.editor.cn;
 //   15   7 
 // Related Topics 树 深度优先搜索 数组
 
-
-import java.util.HashMap;
-import java.util.Map;
-
-public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
+class ConstructBinaryTreeFromPreorderAndInorderTraversal {
     public static void main(String[] args) {
         Solution solution = new ConstructBinaryTreeFromPreorderAndInorderTraversal().new Solution();
         int[] preOrder = {3, 9, 20};
