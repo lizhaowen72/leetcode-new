@@ -1,6 +1,5 @@
 package leetcode.editor.cn;
-
-//在一条环路上有 N 个加油站，其中第 i 个加油站有汽油 gas[i] 升。
+//在一条环路上有 N 个加油站，其中第 i 个加油站有汽油 gas[i] 升。 
 //
 // 你有一辆油箱容量无限的的汽车，从第 i 个加油站开往第 i+1 个加油站需要消耗汽油 cost[i] 升。你从其中的一个加油站出发，开始时油箱为空。 
 //
@@ -47,7 +46,8 @@ package leetcode.editor.cn;
 //你无法返回 2 号加油站，因为返程需要消耗 4 升汽油，但是你的油箱只有 3 升汽油。
 //因此，无论怎样，你都不可能绕环路行驶一周。 
 // Related Topics 贪心算法
-public class GasStation {
+
+class GasStation{
     public static void main(String[] args) {
         Solution solution = new GasStation().new Solution();
         int[] gas = {1, 2, 3, 4, 5};

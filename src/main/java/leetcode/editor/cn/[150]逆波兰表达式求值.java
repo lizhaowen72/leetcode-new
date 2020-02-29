@@ -1,8 +1,5 @@
 package leetcode.editor.cn;
-
-import java.util.Stack;
-
-//根据逆波兰表示法，求表达式的值。
+//根据逆波兰表示法，求表达式的值。 
 //
 // 有效的运算符包括 +, -, *, / 。每个运算对象可以是整数，也可以是另一个逆波兰表达式。 
 //
@@ -40,7 +37,10 @@ import java.util.Stack;
 //= 17 + 5
 //= 22 
 // Related Topics 栈
-public class EvaluateReversePolishNotation {
+
+import java.util.Stack;
+
+class EvaluateReversePolishNotation{
     public static void main(String[] args) {
         Solution solution = new EvaluateReversePolishNotation().new Solution();
         String[] tokens = {"4", "13", "5", "/", "+"};
@@ -51,8 +51,8 @@ public class EvaluateReversePolishNotation {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int evalRPN(String[] tokens) {
-          int a,b;
-          Stack<Integer> stack = new Stack<>();
+            int a,b;
+            Stack<Integer> stack = new Stack<>();
             for (String token : tokens) {
                 if (token.equals("+")) {
                     stack.add(stack.pop() + stack.pop());

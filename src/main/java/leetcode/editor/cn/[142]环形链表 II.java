@@ -43,7 +43,7 @@ package leetcode.editor.cn;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LinkedListCycleIi {
+class LinkedListCycleIi{
     public static void main(String[] args) {
         Solution solution = new LinkedListCycleIi().new Solution();
         ListNode node1 = new ListNode(3);

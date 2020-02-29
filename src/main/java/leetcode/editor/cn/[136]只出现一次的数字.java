@@ -16,12 +16,11 @@ package leetcode.editor.cn;
 // 输入: [4,1,2,1,2]
 //输出: 4 
 // Related Topics 位运算 哈希表
-public class SingleNumber{
+
+class SingleNumber{
     public static void main(String[] args) {
          Solution solution = new SingleNumber().new Solution();
     }
-    
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int singleNumber(int[] nums) {

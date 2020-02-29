@@ -13,7 +13,7 @@ package leetcode.editor.cn;
 // 给定链表 1->2->3->4->5, 重新排列为 1->5->2->4->3. 
 // Related Topics 链表
 
-public class ReorderList {
+class ReorderList {
     public static void main(String[] args) {
         Solution solution = new ReorderList().new Solution();
         ListNode node1 = new ListNode(1);

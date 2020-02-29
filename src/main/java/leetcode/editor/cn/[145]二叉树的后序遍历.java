@@ -1,8 +1,5 @@
 package leetcode.editor.cn;
-
-import java.util.*;
-
-//给定一个二叉树，返回它的 后序 遍历。
+//给定一个二叉树，返回它的 后序 遍历。 
 //
 // 示例: 
 //
@@ -17,7 +14,10 @@ import java.util.*;
 //
 // 进阶: 递归算法很简单，你可以通过迭代算法完成吗？ 
 // Related Topics 栈 树
-public class BinaryTreePostorderTraversal {
+
+import java.util.*;
+
+class BinaryTreePostorderTraversal {
     public static void main(String[] args) {
         Solution solution = new BinaryTreePostorderTraversal().new Solution();
         TreeNode node1 = new TreeNode(3);

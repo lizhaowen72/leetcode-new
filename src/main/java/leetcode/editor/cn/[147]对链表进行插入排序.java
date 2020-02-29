@@ -1,6 +1,5 @@
 package leetcode.editor.cn;
-
-//对链表进行插入排序。
+//对链表进行插入排序。 
 //
 // 
 //插入排序的动画演示如上。从第一个元素开始，该链表可以被认为已经部分排序（用黑色表示）。 
@@ -30,7 +29,8 @@ package leetcode.editor.cn;
 //输出: -1->0->3->4->5
 // 
 // Related Topics 排序 链表
-public class InsertionSortList {
+
+class InsertionSortList{
     public static void main(String[] args) {
         Solution solution = new InsertionSortList().new Solution();
         ListNode node4 = new ListNode(4);

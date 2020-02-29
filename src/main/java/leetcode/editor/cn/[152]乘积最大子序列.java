@@ -15,8 +15,7 @@ package leetcode.editor.cn;
 //解释: 结果不能为 2, 因为 [-2,-1] 不是子数组。 
 // Related Topics 数组 动态规划
 
-
-public class MaximumProductSubarray {
+class MaximumProductSubarray{
     public static void main(String[] args) {
         Solution solution = new MaximumProductSubarray().new Solution();
         int[] nums = {-2, 3, -4};
@@ -55,7 +54,7 @@ public class MaximumProductSubarray {
                     imax = imin;
                     imin = temp;
                 }
-                // max/min product for the current number is either the current number itself or the max/min 
+                // max/min product for the current number is either the current number itself or the max/min
                 // by the previous number times the current one
                 imax = Math.max(nums[i], imax * nums[i]);
                 imin = Math.min(nums[i], imin * nums[i]);
@@ -65,9 +64,6 @@ public class MaximumProductSubarray {
             }
             return r;
         }
-
-
     }
 //leetcode submit region end(Prohibit modification and deletion)
-
 }
