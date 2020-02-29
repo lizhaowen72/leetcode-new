@@ -12,12 +12,16 @@ package leetcode.editor.cn;
 // 
 // Related Topics 数组 哈希表
 
+import org.omg.Messaging.SyncScopeHelper;
+
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
 class TwoSum{
     public static void main(String[] args) {
          Solution solution = new TwoSum().new Solution();
+        System.out.println(Collections.emptyList());
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {

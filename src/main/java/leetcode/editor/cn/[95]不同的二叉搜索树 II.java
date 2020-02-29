@@ -32,7 +32,7 @@ import java.util.List;
  * 结点的值； 若它的右子树不空，则右子树上所有结点的值均大于它的根结点的值；
  * 它的左、右子树也分别为二叉排序树。
  */
-public class UniqueBinarySearchTreesIi {
+class UniqueBinarySearchTreesIi {
     public static void main(String[] args) {
         Solution solution = new UniqueBinarySearchTreesIi().new Solution();
         List<TreeNode> treeNodes = solution.generateTrees(0);

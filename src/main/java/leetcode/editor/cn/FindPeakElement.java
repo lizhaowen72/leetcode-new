@@ -34,7 +34,12 @@ public class FindPeakElement {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int findPeakElement(int[] nums) {
-            return 0;
+            for (int i = 0; i < nums.length - 1; i++) {
+                if (nums[i] > nums[i + 1]) {
+                    return i;
+                }
+            }
+            return nums.length - 1;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
