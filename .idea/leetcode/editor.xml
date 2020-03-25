@@ -195,6 +195,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/One32Pattern.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/One32Pattern.java" />
+              <option name="questionId" value="456" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/PermutationSequence.java">
           <value>
             <LeetcodeEditor>
@@ -320,6 +328,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ValidPerfectSquare.java" />
               <option name="questionId" value="367" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ZigzagIterator.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ZigzagIterator.java" />
+              <option name="questionId" value="281" />
             </LeetcodeEditor>
           </value>
         </entry>
