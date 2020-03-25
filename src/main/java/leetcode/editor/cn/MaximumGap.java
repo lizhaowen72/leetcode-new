@@ -1,5 +1,7 @@
 package leetcode.editor.cn;
 
+import java.util.Arrays;
+
 //给定一个无序的数组，找出数组在排序之后，相邻元素之间最大的差值。
 //
 // 如果数组元素个数小于 2，则返回 0。 
@@ -56,7 +58,30 @@ public class MaximumGap {
                 min = Math.min(min, nums[i]);
                 max = Math.max(max, nums[i]);
             }
-            return 0;
+            int gap = (int) Math.ceil((double) (max - min) / (nums.length - 1));
+            int[] bucketMIN = new int[nums.length - 1];
+            int[] bucketMAX = new int[nums.length - 1];
+            Arrays.fill(bucketMIN, Integer.MAX_VALUE);
+            Arrays.fill(bucketMAX, Integer.MIN_VALUE);
+            for (int num : nums) {
+                if (num == min || num == max) {
+                    continue;
+                }
+                int idx = (num - min) / gap;
+                bucketMIN[idx] = Math.min(num, bucketMIN[idx]);
+                bucketMAX[idx] = Math.max(num, bucketMAX[idx]);
+            }
+            int maxGap = Integer.MIN_VALUE;
+            int previos = min;
+            for (int i = 0; i < nums.length - 1; i++) {
+                if (bucketMIN[i] == Integer.MAX_VALUE && bucketMAX[i] == Integer.MIN_VALUE) {
+                    continue;
+                }
+                maxGap = Math.max(maxGap, bucketMIN[i] - previos);
+                previos = bucketMAX[i];
+            }
+            maxGap = Math.max(maxGap, max - previos);
+            return maxGap;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

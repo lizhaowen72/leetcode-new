@@ -81,6 +81,15 @@ public class SubtreeOfAnotherTree {
             return isSame(s.left, t.left) && isSame(s.right, t.right);
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
 
+    //leetcode submit region end(Prohibit modification and deletion)
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        public TreeNode(int val) {
+            this.val = val;
+        }
+    }
 }

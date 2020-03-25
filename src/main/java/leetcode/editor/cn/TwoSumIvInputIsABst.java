@@ -93,6 +93,15 @@ public class TwoSumIvInputIsABst {
             return dfs(root.left, set, k) || dfs(root.right, set, k);
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
 
+    //leetcode submit region end(Prohibit modification and deletion)
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        public TreeNode(int val) {
+            this.val = val;
+        }
+    }
 }

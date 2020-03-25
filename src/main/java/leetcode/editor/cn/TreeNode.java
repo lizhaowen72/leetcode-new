@@ -1,11 +1,16 @@
 package leetcode.editor.cn;
 
+/**
+ * @Auther: Administrator
+ * @Date: 2020/1/21 22:22
+ * @Description: TODO
+ */
 public class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
 
-    public TreeNode(int val) {
-        this.val = val;
+    TreeNode(int x) {
+        val = x;
     }
 }
