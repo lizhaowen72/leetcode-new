@@ -49,8 +49,6 @@ package leetcode.editor.cn;
 // 
 // Related Topics 字符串
 
-import com.sun.org.apache.bcel.internal.generic.RET;
-
 class CompareVersionNumbers {
     public static void main(String[] args) {
         Solution solution = new CompareVersionNumbers().new Solution();

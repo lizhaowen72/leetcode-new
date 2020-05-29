@@ -28,8 +28,6 @@ package leetcode.editor.cn;
 // 
 // Related Topics 哈希表 回溯算法
 
-import com.sun.org.apache.bcel.internal.generic.RET;
-
 class SudokuSolver {
     public static void main(String[] args) {
         Solution solution = new SudokuSolver().new Solution();

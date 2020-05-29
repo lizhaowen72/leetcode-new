@@ -62,7 +62,7 @@ class RegularExpressionMatching {
     public static void main(String[] args) {
         Solution solution = new RegularExpressionMatching().new Solution();
         //solution.isMatch("aa","a");
-        solution.isMatch("aa", "a*");
+        solution.isMatch3("aa", "a*");
         solution.isMatch("ab", ".*");
         solution.isMatch("aab", "c*a*b");
         solution.isMatch("mississippi", "mis*is*p*.");
@@ -70,7 +70,7 @@ class RegularExpressionMatching {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        public boolean isMatch(String text, String pattern) {
+        public boolean isMatch5(String text, String pattern) {
             boolean[][] dp = new boolean[text.length() + 1][pattern.length() + 1];
             dp[text.length()][pattern.length()] = true;
             for (int i = text.length(); i >= 0; i--) {
@@ -87,15 +87,22 @@ class RegularExpressionMatching {
             return dp[0][0];
         }
 
-
+        // '.' 匹配任意单个字符
+        //'*' 匹配零个或多个前面的那一个元素
         public boolean isMatch3(String text, String pattern) {
-            if (pattern.isEmpty()) {
+            if (pattern.isEmpty()) { // 如果pattern为空,就看text是否为空
                 return text.isEmpty();
             }
+            // 如果pattern不为空,则尝试匹配text和pattern的第一个字符,考虑两种情况,第一text.charAt(0) == pattern.charAt(0),第二pattern.charAt(0) == '.'
             boolean first_match = (!text.isEmpty() && (text.charAt(0) == pattern.charAt(0) || pattern.charAt(0) == '.'));
+            // 如果pattern的长度大于等于2,并且pattern的第二个字符为*(该'*'可以匹配0个或者多个前面的字符)
             if (pattern.length() >= 2 && pattern.charAt(1) == '*') {
+                // 也分为两种情况
+                // 第一firstMatch为false,则直接跳过pattern的前两个字符,比如pattern = "a*",这个时候*的作用是将前面的字符匹配0个
+                // 第二种firstMatch为true,text从第二个字符开始,这里传pattern进去,是要知道pattern中的字符'*'前面的字符
                 return (isMatch3(text, pattern.substring(2)) || (first_match && isMatch3(text.substring(1), pattern)));
             } else {
+                // 否则直接匹配之
                 return first_match && isMatch3(text.substring(1), pattern.substring(1));
             }
 
@@ -128,6 +135,18 @@ class RegularExpressionMatching {
             }
             System.out.println(dp[s.length()][p.length()]);
             return dp[s.length()][p.length()];
+        }
+
+        public boolean isMatch(String text,String pattern){
+            if (pattern.isEmpty()){
+                return text.isEmpty();
+            }
+            boolean firstMatch = (!text.isEmpty())&&(text.charAt(0)==pattern.charAt(0)||pattern.charAt(0)=='.');
+            if (pattern.length()>=2&&pattern.charAt(1)=='*'){
+                return isMatch(text,pattern.substring(2))||firstMatch&&(isMatch(text.substring(1),pattern));
+            }else{
+                return firstMatch&&isMatch(text.substring(1),pattern.substring(1));
+            }
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

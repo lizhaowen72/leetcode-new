@@ -59,11 +59,8 @@ package leetcode.editor.cn;
 // 注意: 二叉树的高度在范围 [1, 10] 中。 
 // Related Topics 树
 
-import com.sun.corba.se.impl.oa.toa.TOA;
-import com.sun.org.apache.bcel.internal.generic.POP;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 class PrintBinaryTree {
